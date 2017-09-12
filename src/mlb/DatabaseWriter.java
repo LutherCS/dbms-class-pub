@@ -102,7 +102,7 @@ public class DatabaseWriter {
                             + "name TEXT NOT NULL,"
                             + "team TEXT NOT NULL,"
                             + "position TEXT NOT NULL,"
-                            + "FOREIGN KEY (team) REFERENCES team(id));");
+                            + "FOREIGN KEY (team) REFERENCES team(idpk));");
 
         statement.executeUpdate("DROP TABLE IF EXISTS address;");
         statement.executeUpdate("CREATE TABLE address ("
@@ -115,7 +115,7 @@ public class DatabaseWriter {
                             + "zip TEXT NOT NULL,"
                             + "phone TEXT NOT NULL,"
                             + "url TEXT NOT NULL,"
-                            + "FOREIGN KEY (team) REFERENCES team(name));");
+                            + "FOREIGN KEY (team) REFERENCES team(idpk));");
         db_connection.close();
     }
    /**
@@ -147,6 +147,7 @@ public class DatabaseWriter {
      */
     public void writeTeamTable(String db_filename, ArrayList<Team> league) throws SQLException {
         Connection db_connection = DriverManager.getConnection(SQLITEDBPATH + db_filename);
+        db_connection.createStatement().execute("PRAGMA foreign_keys = ON;");
         // TODO: Write an SQL statement to insert a new team into a table
         String sql = "";
         for (Team team: league) {
@@ -164,6 +165,7 @@ public class DatabaseWriter {
      */
     public void writeAddressTable(String db_filename, ArrayList<Address> addressBook) throws SQLException {
         Connection db_connection = DriverManager.getConnection(SQLITEDBPATH + db_filename);
+        db_connection.createStatement().execute("PRAGMA foreign_keys = ON;");
         for (Address address: addressBook) {
             // TODO: Write an SQL statement to insert a new address into a table
             String sql = "";
@@ -181,6 +183,7 @@ public class DatabaseWriter {
      */
     public void writePlayerTable(String db_filename, ArrayList<Player> roster) throws SQLException {
         Connection db_connection = DriverManager.getConnection(SQLITEDBPATH + db_filename);
+        db_connection.createStatement().execute("PRAGMA foreign_keys = ON;");
         for (Player player: roster) {
             // TODO: Write an SQL statement to insert a new player into a table
             String sql = "";
