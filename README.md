@@ -16,3 +16,5 @@ This repository contains sample code and project templates for the DBMS course a
  * [JUnit - About](http://junit.org/junit4/)
  * [NBA Basketball Teams - National Basketball Association - ESPN](http://www.espn.com/nba/teams)
  * [MLB Baseball Teams - Major League Baseball - ESPN](http://www.espn.com/mlb/teams)
+
+ ![MLB Project GUI](mlb_project_gui.png)
