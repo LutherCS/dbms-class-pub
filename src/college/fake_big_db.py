@@ -88,9 +88,15 @@ def populate_db(conn):
             format(dept))
     conn.commit()
     # Populate table COURSE
-    for _ in range(number_of_courses):
-        cursor.execute("INSERT INTO course(Title, DeptId) VALUES ('{}', {});".\
-            format(title(), random.randint(1, number_of_departments)))
+    # Course can be offered once by a department
+    courses = set()
+    while len(courses) < number_of_courses:
+        course_title = title()
+        dept_id = random.randint(1, number_of_departments)
+        if (course_title, dept_id) not in courses:
+            cursor.execute("INSERT INTO course(Title, DeptId) VALUES ('{}', {});".\
+                format(course_title, dept_id))
+        courses.add((course_title, dept_id))
     conn.commit()
     # Populate table SECTION
     for _ in range(number_of_sections):
@@ -98,9 +104,16 @@ def populate_db(conn):
             format(random.randint(1, number_of_courses), random.choice(FAC_LST), random.randint(1861, 2017)))
     conn.commit()
     # Populate table ENROLL
-    for _ in range(number_of_enrollments):
-        cursor.execute("INSERT INTO enroll(StudentId, SectionId, Grade) VALUES ({}, {}, '{}');".\
-            format(random.randint(1, number_of_students), random.randint(1, number_of_sections), random.choice(GRADES)))
+    # A student can take a class once
+    enrollments = set()
+    while len(enrollments) < number_of_enrollments:
+        student_id = random.randint(1, number_of_students)
+        section_id = random.randint(1, number_of_sections)
+        if (student_id, section_id) not in enrollments:
+            cursor.execute("INSERT INTO enroll(StudentId, SectionId, Grade) VALUES ({}, {}, '{}');".\
+                format(student_id, section_id, random.choice(GRADES)))
+        enrollments.add((student_id, section_id))
+
     conn.commit()
 
 def main():
