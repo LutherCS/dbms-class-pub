@@ -27,4 +27,7 @@ build/
 nbbuild/
 dist/
 nbdist/
-.nb-gradle/
+.nb-gradle
+
+# VS Code config
+.vscode/
