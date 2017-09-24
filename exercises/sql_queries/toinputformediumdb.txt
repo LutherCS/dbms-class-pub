@@ -39,6 +39,28 @@ INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (63, 72, 'brand
 INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (73, 82, 'frankenstein', 2002);
 INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (83, 92, 'frankenstein', 2001);
 INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (93, 102, 'lucifer', 2005);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (103, 102, 'lucifer', 2006);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (113, 102, 'lucifer', 2007);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (123, 102, 'lucifer', 2008);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (133, 102, 'lucifer', 2009);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (143, 102, 'lucifer', 2010);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (153, 102, 'lucifer', 2011);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (163, 102, 'lucifer', 2012);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (173, 102, 'lucifer', 2013);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (183, 102, 'lucifer', 2014);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (193, 102, 'lucifer', 2015);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (203, 102, 'lucifer', 2016);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (213, 102, 'lucifer', 2017);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (223, 102, 'lucifer', 2018);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (233, 102, 'lucifer', 2019);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (243, 102, 'lucifer', 2020);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2021);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2022);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2023);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2024);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2025);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (253, 102, 'lucifer', 2026);
+INSERT INTO SECTION (SectId, CourseId, Prof, YearOffered) VALUES (263, 12, 'turing', 2025);
 
 CREATE TABLE ENROLL (EId int PRIMARY KEY, StudentId int, SectionId int, Grade text, FOREIGN KEY (StudentId) REFERENCES STUDENT(SId), FOREIGN KEY (SectionId) REFERENCES SECTION(SectId));
 INSERT INTO ENROLL (EId, StudentId, SectionId, Grade) VALUES (14, 1, 13, 'A');
