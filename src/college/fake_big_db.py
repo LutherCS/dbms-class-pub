@@ -13,20 +13,17 @@ DEPT_TBL_SIZE = 50  # Number of majors in the majors.txt
 COURSE_TBL_SIZE = 500
 SECTION_TBL_SIZE = 2000
 ENROLL_TBL_SIZE = 500000
-FACULTY_COUNT = 1000
+FACULTY_TBL_SIZE = 1000
 
 DEPT_LST = []
-FAC_LST = [Faker().name() for _ in range(FACULTY_COUNT)]
 GRADES = ['A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'F']
 TITLES_ADV = ['Advanced', 'Building', 'Designing', 'Developing',
-              'Diving into', 'Elementary', 'Hacking', 'In search of',
-              'Introduction to', 'Mastering', 'Teach Yourself', 'Understanding']
-TITLES_ADJ = ['Algorithms', 'C++', 'Computer', 'Database',
+              'Hacking', 'Introduction to', 'Mastering', 'Understanding']
+TITLES_ADJ = ['Android', 'C++', 'Computer', 'Database',
               'Game', 'Java', 'Hardware', 'Network',
-              'Python', 'Secure', 'Operating', 'Web']
-TITLES_NOUN = ['Basics', 'Concepts', 'Design', 'for Dummies',
-               'Fundamentals', 'in 10 Days', 'in a Nutshell', 'Networks',
-               'Principles', 'Problems', 'Security', 'Systems']
+              'Python', 'Secure', 'Software', 'Web']
+TITLES_NOUN = ['Basics', 'Concepts', 'Design', 'Development',
+               'Fundamentals', 'Principles', 'Problems', 'Security']
 
 
 def get_course_title():
@@ -63,6 +60,16 @@ def create_db(conn):
     cursor.execute('''CREATE TABLE dept (
                             DId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                             DName TEXT NOT NULL
+                    );''')
+    # Create table FACULTY
+    cursor.execute('DROP TABLE IF EXISTS faculty;')
+    cursor.execute('''CREATE TABLE faculty (
+                            FId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                            FName TEXT NOT NULL,
+                            DeptId INTEGER NOT NULL,
+                            YearFrom INTEGER NOT NULL,
+                            YearTo INTEGER,
+                            FOREIGN KEY (DeptId) REFERENCES dept(DId)
                     );''')
     # Create table COURSE
     cursor.execute('DROP TABLE IF EXISTS course;')
@@ -107,7 +114,15 @@ def populate_db(conn):
     # Populate table STUDENT
     for _ in range(STUDENT_TBL_SIZE):
         cursor.execute("INSERT INTO student(SName, GradYear, MajorId) VALUES ('{}', {}, {});".
-                       format(person.name(), random.randint(1861, 2017), random.randint(1, DEPT_TBL_SIZE)))
+                       format(person.name(), random.randint(1866, 2017), random.randint(1, DEPT_TBL_SIZE)))
+    conn.commit()
+    # Populate table FACULTY
+    for _ in range(FACULTY_TBL_SIZE):
+        start_year = random.randint(1861, 2017)
+        retirement_year = start_year + random.randint(1, 40)
+        cursor.execute("INSERT INTO faculty(FName, DeptId, YearFrom, YearTo) VALUES ('{}', {}, {}, {});".
+                       format(person.name(), random.randint(1, DEPT_TBL_SIZE), start_year, retirement_year))
+    cursor.execute("UPDATE faculty SET YearTo=NULL WHERE YearTo>2017;")
     conn.commit()
     # Populate table COURSE
     # Course can be offered once by a department
@@ -122,8 +137,18 @@ def populate_db(conn):
     conn.commit()
     # Populate table SECTION
     for _ in range(SECTION_TBL_SIZE):
+        course_id = random.randint(1, COURSE_TBL_SIZE)
+        cursor.execute("SELECT DeptId from course where " + str(course_id) + "=course.CID;")
+        dept_offering = cursor.fetchone()
+        cursor.execute("SELECT FName, YearFrom, YearTo from faculty where faculty.DeptId=" + str(dept_offering[0]) + ";")
+        dept_fac_lst = [f for f in cursor.fetchall()]
+        prof = random.choice(dept_fac_lst)
+        if prof[2]:
+            year_offered = random.randint(prof[1], prof[2])
+        else:
+            year_offered = random.randint(prof[1], 2017)
         cursor.execute("INSERT INTO section(CourseId, Prof, YearOffered) VALUES ({}, '{}', {});".
-                       format(random.randint(1, COURSE_TBL_SIZE), random.choice(FAC_LST), random.randint(1861, 2017)))
+                       format(course_id, prof[0], year_offered))
     conn.commit()
     # Populate table ENROLL
     # A student can take a class once
@@ -135,7 +160,6 @@ def populate_db(conn):
             cursor.execute("INSERT INTO enroll(StudentId, SectionId, Grade) VALUES ({}, {}, '{}');".
                            format(student_id, section_id, random.choice(GRADES)))
         enrollments.add((student_id, section_id))
-
     conn.commit()
 
 
