@@ -52,7 +52,7 @@ def create_db(conn):
                             SId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                             SName TEXT NOT NULL,
                             GradYear INTEGER NOT NULL,
-                            MajorId INTEGER NOT NULL,
+                            MajorId INTEGER,
                             FOREIGN KEY (MajorId) REFERENCES dept(DId)
                     );''')
     # Create table DEPT
@@ -84,9 +84,10 @@ def create_db(conn):
     cursor.execute('''CREATE TABLE section (
                             SectId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                             CourseId INTEGER NOT NULL,
-                            Prof TEXT NOT NULL,
+                            ProfId INTEGER NOT NULL,
                             YearOffered INTEGER NOT NULL,
-                            FOREIGN KEY (CourseId) REFERENCES course(CId)
+                            FOREIGN KEY (CourseId) REFERENCES course(CId),
+                            FOREIGN KEY (ProfId) REFERENCES faculty(FId)
                     );''')
     # Create table ENROLL
     cursor.execute('DROP TABLE IF EXISTS enroll;')
@@ -94,7 +95,7 @@ def create_db(conn):
                             EId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                             StudentId INTEGER NOT NULL,
                             SectionId INTEGER NOT NULL,
-                            Grade TEXT NOT NULL,
+                            Grade TEXT,
                             FOREIGN KEY (StudentId) REFERENCES student(SId),
                             FOREIGN KEY (SectionId) REFERENCES section(SectId)
                     );''')
