@@ -1,0 +1,28 @@
+Africana Studies|Novian Whitsitt|whitsino@luther.edu|Main|https://www.luther.edu/africana-studies/
+Biology|Mark Eichinger|eichma01@luther.edu|Sampson Hoffland Laboratories|https://www.luther.edu/biology/
+Chemistry|Brad Chamberlain|chambr01@luther.edu|Sampson Hoffland Laboratories|https://www.luther.edu/chemistry/
+Classics|Dan Davis|davida06@luther.edu|Main|https://www.luther.edu/classics/
+Communication Studies|Kimberly Powell|kimpowell@luther.edu|Campus House|https://www.luther.edu/communication-studies/
+Computer Science|Brad Miller|bmiller@luther.edu|Olin|https://www.luther.edu/computer-science/
+Economics, Accounting, and Management|Steve Holland|steve.holland@luther.edu|Olin|https://www.luther.edu/business/
+Education|Barbara Bohach|bohachba@luther.edu|Koren|https://www.luther.edu/education/
+English|David Faldet|faldetda@luther.edu|Main|https://www.luther.edu/english/
+Environmental Studies|Eric Baack|baacer01@luther.edu|Sampson Hoffman|https://www.luther.edu/environmental-studies/
+Health and Physical Education|Brian Solberg|solberbr@luther.edu|Regents Center|https://www.luther.edu/hpe/
+History|Brian Caton|catobr01@luther.edu|Koren|https://www.luther.edu/history/
+International Studies|Pedro dos Santos|dosspe01@luther.edu|Koren|https://www.luther.edu/international-studies/
+Library|Ryan Gjerde|gjerdery@luther.edu|Preus Library|https://www.luther.edu/library/
+Mathematics|Eric Westlund|wester01@luther.edu|Olin|https://www.luther.edu/mathematics/
+Modern Languages, Literatures and Linguistics|Nancy Gates Madsen|madsna01@luther.edu|Main|https://www.luther.edu/mlll/
+Music|Daniel Baldwin|baldwida@luther.edu|Jenson-Noble|https://www.luther.edu/music/
+Nursing|April Rowe Neal|roweap01@luther.edu|Rochester|https://www.luther.edu/nursing/
+Paideia|Rebecca Sullivan|sullivre@luther.edu|Main|https://www.luther.edu/paideia/
+Philosophy|Storm Bailey|baileyst@luther.edu|Ockham House|https://www.luther.edu/philosophy/
+Physics|James Perez|perezjam@luther.edu|Valders|https://www.luther.edu/physics/
+Political Science|Paul Gardner|gardnerp@luther.edu|Koren|https://www.luther.edu/political-science/
+Psychology|Kristy Gould|goulkr01@luther.edu|Valders|https://www.luther.edu/psychology/
+Religion|Sean Burke|burkse01@luther.edu|Main|https://www.luther.edu/religion/
+Scholars Program|Jeff Wilkerson|wilkerje@luther.edu|Union|https://www.luther.edu/academics/dean/scholars/
+Sociology/Anthropology/ Social Work|Britt Rhodes|rhodbr01@luther.edu|Koren|https://www.luther.edu/soc-anthro-sclwrk/
+Visual and Performing Arts|Lisa Lantz|lantli01@luther.edu|Center for the Arts|https://www.luther.edu/visual-performing-arts/
+Women and Gender Studies|Char Kunkel|kunkelch@luther.edu|Koren|https://www.luther.edu/women-gender-studies/

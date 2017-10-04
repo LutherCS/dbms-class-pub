@@ -38,7 +38,7 @@ def get_course_title():
 
 def read_files():
     '''Read data from files'''
-    with open('src/college/majors.txt', 'r') as input_file:
+    with open('data/majors.txt', 'r') as input_file:
         for line in input_file:
             DEPT_LST.append(line.strip())
 
@@ -167,7 +167,7 @@ def populate_db(conn):
 def main():
     '''Main function'''
     read_files()
-    conn = sqlite3.connect('exercises/sql_queries/university.sqlite')
+    conn = sqlite3.connect('data/university.sqlite')
     create_db(conn)
     populate_db(conn)
     conn.close()
