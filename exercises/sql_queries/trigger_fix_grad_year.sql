@@ -4,4 +4,4 @@ create trigger FixBadGradYear
 	when new.GradYear > extract(YEAR, current_date) + 4
 begin
 	update STUDENT set GradYear = null;
-end
+end;
