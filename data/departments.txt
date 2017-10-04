@@ -23,6 +23,6 @@ Political Science|Paul Gardner|gardnerp@luther.edu|Koren|https://www.luther.edu/
 Psychology|Kristy Gould|goulkr01@luther.edu|Valders|https://www.luther.edu/psychology/
 Religion|Sean Burke|burkse01@luther.edu|Main|https://www.luther.edu/religion/
 Scholars Program|Jeff Wilkerson|wilkerje@luther.edu|Union|https://www.luther.edu/academics/dean/scholars/
-Sociology/Anthropology/ Social Work|Britt Rhodes|rhodbr01@luther.edu|Koren|https://www.luther.edu/soc-anthro-sclwrk/
+Sociology, Anthropology, Social Work|Britt Rhodes|rhodbr01@luther.edu|Koren|https://www.luther.edu/soc-anthro-sclwrk/
 Visual and Performing Arts|Lisa Lantz|lantli01@luther.edu|Center for the Arts|https://www.luther.edu/visual-performing-arts/
 Women and Gender Studies|Char Kunkel|kunkelch@luther.edu|Koren|https://www.luther.edu/women-gender-studies/

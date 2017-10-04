@@ -33,6 +33,7 @@ CLASSICS
 Freeman, Philip|2144|freeph01
 Bulliung, Anne|1263|bulliuan
 Davis, Dan|2551|davida06
+
 COMMUNICATION STUDIES
 Powell, Kim|1362|powellki
 Sweet, Derek|1566|sweede01
@@ -98,16 +99,6 @@ Brummel, Rachel|1778|brumra02
 Jensen, Jon|1696|jensjo01
 Peterson, Laura|1781|cleala01
 
-HISTORY
-Caton, Brian|2119|catobr01
-Anderson, Lauren|2981|andela10
-Christman, Robert|2137|chriro05
-Christman, Victoria|1071|chrivi02
-Mtisi, Richard|1264|mtisri01
-Peterson, Anna|1155|petean07
-Tebbenhoff, Edward|1691|tebbened
-Wilkie, Jacqueline|1369|wilkieja
-
 HEALTH AND PHYSICAL EDUCATION
 Solberg, Brian|1246|solberbr
 Boeke, Jeff|1820|boekje01
@@ -124,6 +115,16 @@ Moeller, Christine|1297|vivich01
 Moeller, Lindy|1498|moellind
 Sullivan, Rebecca|2212|sullivre86
 
+HISTORY
+Caton, Brian|2119|catobr01
+Anderson, Lauren|2981|andela10
+Christman, Robert|2137|chriro05
+Christman, Victoria|1071|chrivi02
+Mtisi, Richard|1264|mtisri01
+Peterson, Anna|1155|petean07
+Tebbenhoff, Edward|1691|tebbened
+Wilkie, Jacqueline|1369|wilkieja
+
 MATHEMATICS
 Westlund, Eric|1711|wester01
 Becker, Joyce|1172|beckerj
@@ -136,7 +137,7 @@ Occhipinti, Thomas|1170|occhth01
 Savariappan, Paul|1363|savapa01
 Wangsness, Cheryl|1716|wangsnch
 
-MODERN LANGUAGES, LITERATURES & LINGUISTICS
+MODERN LANGUAGES, LITERATURES AND LINGUISTICS
 Thompson, David|2146|thomda01
 Estenoz, Alfredo|1183|alonal01
 Bowman, Melanie|2983|bowmme01
