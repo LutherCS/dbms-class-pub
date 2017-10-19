@@ -1,932 +1,849 @@
-ACCTG 110 Introduction to Accounting
-ACCTG 150 Fundamentals of Accounting
-ACCTG 250 Managerial Cost Accounting I
-ACCTG 353 Intermediate Accounting I
-ACCTG 354 Intermediate Accounting II
-ACCTG 357 Accounting for Government and Nonprofit Entities
-ACCTG 358 Managerial Cost Accounting II
-ACCTG 365 Advanced Accounting
-ACCTG 467 Auditing and Assurance Services
-ACCTG 468 Federal Income Taxation
-ACCTG 485 Seminar
-ACCTG 490 Senior Project
-AFRS 135 African-American History
-AFRS 147 Literature of the African Peoples
-AFRS 171 History of Africa to 1880
-AFRS 172 History of Modern Africa
-AFRS 221 Anthropology in East Africa: Forces of Culture Change Among the Massai
-AFRS 235 The Civil Rights Movement
-AFRS 240 Africana Women's Writing
-AFRS 247 History of Jazz
-AFRS 251 African-American Literature
-AFRS 271 African Diaspora
-AFRS 331 Topics in African American History
-AFRS 345 Constructs of Race and Racialization
-AFRS 371 Topics in African History
-AFRS 391 Topics in Africana History
-AFRS 485 Junior/Senior Seminar
-AFRS 490 Senior Project
-ANTH 101 Cultural Anthropology
-ANTH 102 Biological Anthropology
-ANTH 103 Linguistic Anthropology
-ANTH 104 Archaeology
-ANTH 203 Environmental Anthropology
-ANTH 204 This is Not Your Country: An Anthropology of Migration
-ANTH 205 Religion and Culture
-ANTH 208 Medical Anthropology
-ANTH 209 Born to Run
-ANTH 210 Qualitative Research Methods in Anthropology
-ANTH 211 Quantitative Research Methods in Anthropology
-ANTH 221 Anthropology in East Africa: Culture Change Among the Maasai
-ANTH 264 Pre-Columbian and Native American Art
-ANTH 301 Experimental Archaeology
-ANTH 302 Field Methods in Archaeology
-ANTH 303 Consumerism and Sustainability An Anthropological Perspective
-ANTH 306 Sugar, Strawberries and Pills: Anthropology of Commodity Chains
-ANTH 401 Anthropological Theory
-ANTH 490 Senior Project
-ARTH 251 Survey of Western Art I
-ARTH 252 Survey of Western Art II
-ARTH 262 American Art
-ARTH 264 Pre-Columbian and Native American Art
-ARTH 362 19th Century Art
-ARTH 364 20th Century Art
-ARTH 368 Gender in Art
-ARTH 379 Art History Methods
-ART 101 Art Matters
-ART 103 Foundations: Circa Now
-ART 104 Foundations: Visual Thinking
-ART 105 Science and the Aesthetic (Italy Semester)
-ART 108 Foundations: Drawing
-ART 111 Foundations: 3-DIMENSIONAL Processes
-ART 114 Sequential Art, Animation and the Graphic Novel
-ART 115 Scandinavian Fine Handcraft
-ART 121 World Pottery
-ART 200 Painting I
-ART 205 Art and Technology
-ART 206 Graphic Design I
-ART 207 3D Modeling and Animation
-ART 208 Life Drawing
-ART 209 2D Studio I
-ART 210 Ceramics I
-ART 216 Printmaking I
-ART 218 Photography I
-ART 222 Art and Community: Introductory Art Methods & Materials
-ART 228 Art in Elementary Schools
-ART 231 4D Art Lab I
-ART 290 Art in Cultural Perspective
-ART 300 Painting II
-ART 306 Graphic Design II
-ART 307 3D Modeling and Animation II
-ART 309 2D Studio II
-ART 310 Ceramics II
-ART 311 Installation
-ART 316 Printmaking II
-ART 318 Photography II
-ART 320 Critical Theory
-ART 331 4D Art Lab II
-ART 384 Studio Projects
-ART 487 Art Colloguium
-ART 490 Senior Project
-ART 491 Senior Project
-AS 389 Directed Research
-ATHTR 265 Clinical I: Introduction to Athletic Training
-ATHTR 268 Clinical II: Head, Neck, Thorax, Abdomen, and Upper Extremity Assessment
-ATHTR 365 Clinical III: Spine, Lower Extremity, and Posture Assessment
-ATHTR 367 General Medical and Pharmacology
-ATHTR 368 Clinical IV:Therapeutic Modalities and Exercise
-ATHTR 370 Therapeutic Modalities in Athletic Training
-ATHTR 372 Therapeutic Exercise in Athletic Training
-ATHTR 465 Clinical V:Health Care Administration
-ATHTR 468 Clinical VI: Advanced Health Care
-ATHTR 490 Senior Project
-BIO 112 Insects, Humans and the Environment
-BIO 115 Human Anatomy
-BIO 116 Intro to Human Physiology
-BIO 125 Genetics and Society
-BIO 140 Introduction to Ecology of the Southwest
-BIO 149 Introduction to Winter Biology
-BIO 151 Principles of Biology:Ecology, Evolution and Biodiversity
-BIO 152 Principles of Biology: Molecules, Cells, and Genes
-BIO 195 Biology of Race And Sex
-BIO 231 Microscopy
-BIO 232 Microscopy Laboratory
-BIO 240 Ecology of the Southwest
-BIO 241 Radioisotopes in Science
-BIO 242 Animal Behavior
-BIO 243 Microbiology
-BIO 245 Ecology of Ecuador
-BIO 246 Ornithology
-BIO 247 Subtropical and Marine Biology
-BIO 248 Genetics
-BIO 249 Winter Biology
-BIO 250 Restoration and Conservation Biology
-BIO 251 Entomology
-BIO 252 Botany
-BIO 253 Invertebrate Zoology
-BIO 254 Experimental Neuroscience
-BIO 255 Human Physiology
-BIO 256 Biostatistics
-BIO 258 Vertebrate Natural History
-BIO 261 Developmental Biology
-BIO 262 Environmental Animal Physiology
-BIO 264 Advanced Topics in Biology
-BIO 301 Human Dissection and Anatomy
-BIO 303 Bioethics
-BIO 354 Evolutionary Biology
-BIO 356 Genomics
-BIO 358 Toxicology
-BIO 359 Virology
-BIO 362 Neuroscience
-BIO 363 Molecular Biology
-BIO 364 Cell Biology
-BIO 365 Ecology
-BIO 367 Endocrinology
-BIO 475 Med Tech Program
-BIO 490 Senior Project
-CHEM 114 The Environment: A Chemical Perspective
-CHEM 141 Essentials of Chemistry
-CHEM 151 Chemical Principles I
-CHEM 152 Chemical Principles II
-CHEM 201 Advanced Chemical Principles
-CHEM 202 Analytical Chemistry
-CHEM 241 Organic Chemistry I
-CHEM 242 Organic Chemistry II
-CHEM 301 Biochemistry
-CHEM 344 Instrumental Methods: Spectroscopic Techniques
-CHEM 345 Instructional Methods: Separations and Electrochemistry
-CHEM 349 Biochemistry Laboratory
-CHEM 351 Chemical Kinetics
-CHEM 361 Quantum Chemistry and Spectroscopy
-CHEM 362 Thermodynamics
-CHEM 365 Spectroscopy and Separations Lab
-CHEM 366 Thermodynamics and Kinetics Laboratory
-CHEM 371 Polymer Chemistry
-CHEM 372 Organometallic Chemistry
-CHEM 373 Solid State Chemistry
-CHEM 376 Advanced Organic Chemistry
-CHEM 379 Inorganic Synthesis Laboratory
-CHEM 474 Physical Inorganic Chemistry
-CHEM 490 Senior Project
-CHEM 490L Senior Project Lab
-CHIN 101 Beginning Chinese
-CHIN 102 Beginning Chinese
-CHIN 201 Intermediate Chinese
-CHIN 202 Intermediate Chinese
-CHIN 242 Chinese Cinema and Chinese Modernity
-CLAS 240 Classical Mythology
-CLAS 250 The World of Ancient Greece
-CLAS 255 Ancient Roman Culture
-CLAS 265 Greece and Rome on Film
-CLAS 270 Archaeology of Ancient Greece
-CLAS 275 Archaeology of Ancient Rome
-CLAS 299 Study Abroad-Classics
-CLAS 300 Classics and Culture
-CLAS 310 Ancient Science
-CLAS 360 The World of St. Patrick
-CLAS 490 Senior Project
-COMS 130 Interpersonal Communication
-COMS 132 Public Address
-COMS 133 Mass Media and Popular Culture
-COMS 233 Rhetoric of Spirituality
-COMS 234 Rhetoric of Everyday Life
-COMS 236 Small Group Communication
-COMS 246 The Internet and American Life
-COMS 250 Contemporary Journalism
-COMS 255 Advanced Public Address
-COMS 258 Concepts of Media Production
-COMS 260 Sport, Media and Society
-COMS 320 Urban America and Serial Television: Critically Analyzing "The Wire"
-COMS 330 Family Communication
-COMS 335 Masculinity in Film
-COMS 347 Critical Television Studies
-COMS 348 Radio Journalism
-COMS 350 Intercultural Communication
-COMS 353 Argumentation
-COMS 354 Persuasion and Social Influence
-COMS 356 Rhetorical Theories
-COMS 357 Research Methods
-COMS 358 Concepts of Media Production II: The Documentary
-COMS 362 Communication Theories
-COMS 370 The Dark Side of Interpersonal Communication
-COMS 463 Public Relations and Corporate Communication
-COMS 490 Senior Project
-CS 130 Fundamentals of Web Programming
-CS 140 Data Modeling and Querying
-CS 150 Introduction to Computer Science
-CS 160 Algorithms and Data Structures
-CS 165 Software Development Tools
-CS 252 Object-Oriented Programming With Java
-CS 253 Object-Oriented Programming With C++
-CS 260 Computational Models
-CS 296 Writing in the Major Lab
-CS 320 Data Analysis and Visualization
-CS 330 Internet Programming
-CS 352 Embedded Android Programming
-CS 353 Embedded iOS Programming
-CS 360 Advanced Algorithms and Data Structures
-CS 370 Programming Languages
-CS 385 Understanding Entrepreneurship in Silicon Valley
-CS 420 Machine Learning
-CS 430 Computer Networks
-CS 440 Database Managment Systems
-CS 450 Operating Systems and Architecture
-CS 490 Senior Project
-CS 491 Senior Project
-DAN 100 Performance Practicum
-DAN 101 Dance Technique and Analysis
-DAN 105 Movement Fundamentals I: Practices of Alignment and Function
-DAN 130 Contact Improvisation
-DAN 199 Dance Synthesis
-DAN 205 Movement Fundamentals II: Practices of Range and Efficiency
-DAN 230 Contact Improvisation II
-DAN 264 Performance Research:The Happenings Course
-DAN 300 Production Studio
-DAN 305 Movement Fundamentals III:Practices of Vocabulary and Intention
-DAN 351 Dance History
-DAN 360 Dance Composition
-DAN 490 Senior Seminar
-DAN 491 Senior Project
-DS 120 Introduction to Data Science
-DS 320 Data Analysis and Visualization
-DS 420 Applied Machine Learning
-DS 490 Senior Project
-ECON 130 Principles of Economics
-ECON 142 Economic Numeracy
-ECON 247 Intermediate Economic Theory: Macro
-ECON 248 Intermediate Economic Theory: Micro
-ECON 255 Environmental Economics
-ECON 256 Economic History
-ECON 262 Development Economics
-ECON 268 Law and Economics
-ECON 333 Economics of Information and Networks
-ECON 342 Introduction to Econometrics
-ECON 361 Money, Credit, and Banking
-ECON 362 International Economics
-ECON 366 Public Finance
-ECON 490 Senior Project
-EDUC 185 Clinical Experience I in the Schools
-EDUC 215 Clinical Experience I in the Schools
-EDUC 220 Educational Psychology
-EDUC 221 The Diverse and Exceptional Learner
-EDUC 222 Instructional Strategies With Computer Applications: Elementary
-EDUC 223 Children's Literature
-EDUC 226 Introduction to Reading
-EDUC 232 Music Education Curriculum and Strategies
-EDUC 240 Home, School, and Community
-EDUC 242 Introduction to Learning Disabilities and Behavioral Issues
-EDUC 245 Career/Vocational Assessment and Vocational Planning
-EDUC 246 Classroom Management and Collaboration
-EDUC 252 Introduction to Middle and High School 5-12 Methods
-EDUC 255 Percussion Methods
-EDUC 260 Brass Methods
-EDUC 265 Double Reeds Methods
-EDUC 270 String Methods
-EDUC 275 Flute, Clarinet and Saxophone Methods
-EDUC 321 Clinical Experience II:Literacy in Elementary/Middle School
-EDUC 322 Clinical Experience II: Mathematics in Elementary/Middle School
-EDUC 323 Teaching Methods for English Language Learners
-EDUC 324 Assessment for English Language Learners
-EDUC 325 Elementary Mathematics Methods
-EDUC 326 Elementary Language Arts Methods
-EDUC 328 Elementary Social Studies Methods
-EDUC 329 Elementary Science Methods
-EDUC 330 Introduction to Early Childhood Education
-EDUC 331 Early Childhood Education II
-EDUC 332 The Middle School Learner
-EDUC 333 Middle School Methods
-EDUC 344 Methods and Strategies for Teaching Students With Learning Disabilities and Behavioral Issues
-EDUC 347 Assessment in Special and Remedial Education
-EDUC 352 Advanced Teaching Methods: Secondary
-EDUC 353 Advanced Methods - World Languages
-EDUC 354 Elementary School Art Content, Methods, and Assessment
-EDUC 355 Art Inside and Outside the Classroom: Art Education Methods for Secondary Students and Community-Based Arts Organizations
-EDUC 361 Clinical Exp. in Mus Educ Clinical Experience in Music Education
-EDUC 366 Advanced Methods Clinical Placement
-EDUC 367 Advanced Teaching Methods II
-EDUC 371 Elementary General Music Methods And Lab
-EDUC 372 Middle School General Music Methods
-EDUC 376 Advanced Literacy:Assessment and Instructional Design for At Risk Readers
-EDUC 377 Content Area Reading:Secondary/K-12 Art & PE
-EDUC 378 Content Area Reading, Elementary/Middle School
-EDUC 379 Content Area Reading: K-12 Music
-EDUC 382 Practicum:Content Area Reading
-EDUC 383 Middle School Choral Methods
-EDUC 384 Middle and High School Marching Band Methods
-EDUC 385 Middle and High School Jazz Methods
-EDUC 386 Vocal Pedagogy and Methods
-EDUC 387 High School Choral Methods
-EDUC 388 Beginning and Middle School Orchestra Methods
-EDUC 390 Middle School and High School Concert Band Methods
-EDUC 391 High School Orchestra Methods
-EDUC 470 Music Education Senior Capstone: Administration of School Music Programs
-EDUC 486 Teaching Practicum
-EDUC 490 Senior Project
-ENG 110 Introduction to College Writing
-ENG 114 Introduction to U.S. Academic Writing
-ENG 130 Literary Ventures
-ENG 147 Literature of the African Peoples
-ENG 210 Effective Writing
-ENG 211 Writing for Media
-ENG 212 Creative Writing:Poetry and Fiction I
-ENG 213 Creative Writing: Nonfiction
-ENG 230 The Writer's Voice
-ENG 231 Film
-ENG 240 Africana Women's Writing
-ENG 245 Literature By Women
-ENG 247 Literature and Ecology
-ENG 251 African-American Literature
-ENG 260 Shakespeare
-ENG 261 Shakespeare Performed
-ENG 262 Tolkien and Lewis in Context
-ENG 312 Creative Writing: Poetry & Fiction II
-ENG 314 Rhetoric: History, Theory, Practice
-ENG 320 Contemporary Literature
-ENG 334 Young Adult Literature
-ENG 352 American Frontiers: American Literature To 1860
-ENG 353 American Literature 1860 to the Present
-ENG 354 American Novel
-ENG 361 Chaucer and Medieval Literature
-ENG 362 Renaissance Literature
-ENG 363 Milton
-ENG 364 Restoration and Eighteenth-Century British Literature
-ENG 365 British Romanticism: Revolution, Nature, And the Imagination
-ENG 366 The Victorians
-ENG 367 Twentieth-Century British Literature
-ENG 368 The British Novel
-ENG 485 Seminar
-ENG 490 Senior Project
-ENVS 112 Energy and the Physical World
-ENVS 130 Environmental Forays
-ENVS 133 Environmental Conservation
-ENVS 134 The Earth System
-ENVS 175 Introduction to Geographic Information Systems
-ENVS 210 Climate Dynamics and Modeling
-ENVS 215 Environmental Education
-ENVS 220 Earth System Biogeochemistry
-ENVS 225 Earth's Climate: Past, Present, and Future
-ENVS 230 Earth Systems and the Environmenty(Italy Semester)
-ENVS 240 Environmental Issues in the Pacific Northwest
-ENVS 250 Sustainability, Systems and Solutions
-ENVS 320 Soil Genesis, Morphology and Classification
-ENVS 330 The Geology of Italy (Italy Semester)
-ENVS 485 Seminar
-ENVS 490 Senior Project
-FCUL 142 China in the World
-FCUL 241 Russian Culture Through Film
-FCUL 242 Chinese Cinema and Chinese Modernity
-FCUL 243 Time of Stalin - Literature and Memoirs
-FCUL 250 Topics in Nordic Literature
-FCUL 251 Topics in Nordic Film
-FCUL 341 Russian Life and Culture
-FCUL 350 Topics in Russian/Soviet Literature
-FCUL 361 Henrik Ibsen
-FCUL 363 Norway's Nobel Prize-Winning Authors
-FREN 101 Elementary French I
-FREN 102 Elementary French II
-FREN 201 Intermediate French
-FREN 202 Intermediate French
-FREN 342 Introduction to French Culture
-FREN 344 Advanced Grammar and Composition
-FREN 345 Conversation and Phonetics
-FREN 346 Introduction to French Literature I
-FREN 347 Introduction to Commercial French
-FREN 348 Introduction to French Literature II
-FREN 460 Topics in French Literatureyand Culture
-FREN 464 Francophone Literatures and Cultures
-FREN 490 Senior Project
-GS 100 Foundations for Learning and Development
-GS 110 Critical Reading and Learning
-GS 200 Lives that Matter: Vocation, Self and Service (Arizona)
-GER 101 Elementary German I
-GER 102 Elementary German II
-GER 105 Munster Preparation
-GER 201 Intermediate German
-GER 202 Conversation and Comprehension
-GER 342 German Culture
-GER 344 German Play
-GER 345 Advanced German Grammar
-GER 346 Introduction to German Literature: From Runes to Rap
-GER 348 Advanced Conversation and Comprehension
-GER 450 Masterpieces of German Literature
-GER 460 Contemporary German Literature And Culture
-GER 470 Topics in German Literature and Culture
-GER 490 Senior Project
-GRK 101 Elementary Greek I
-GRK 102 Elementary Greek II
-GRK 201 Intermediate Greek
-GRK 202 Readings in Greek
-GRK 301 Advanced Greek Prose
-GRK 302 Advanced Greek Poetry
-GRK 490 Senior Project
-HLTH 100 Lifetime Health and Wellness
-HLTH 125 Nutrition I
-HLTH 126 Nutrition II
-HLTH 201 Foundations of Health Education
-HLTH 233 Mental/ Emotional Health: Stress Management
-HLTH 234 Family Life Education
-HLTH 249 Personal and Community Health
-HLTH 343 Health Education Content, Methods, and Assessment I
-HLTH 344 Health Education Content, Methods, And Assessment II
-HLTH 352 Consumer Health and Safety Education
-HLTH 358 Substance Abuse Education
-HLTH 372 Administration and Management of Fitness Programs
-HLTH 380 Internship
-HLTH 465 Current Issues in Health
-HLTH 490 Senior Project
-HEB 101 Elementary Hebrew I
-HEB 102 Elementary Hebrew II
-HEB 201 Intermediate Hebrew
-HIST 101 Introduction to the History of the United States for Elementary School Teachers
-HIST 111 Survey of US History Part One
-HIST 112 Survey of US History Part Two
-HIST 126 Human Geography
-HIST 135 African-American History
-HIST 149 Europe to 1648
-HIST 150 Europe, 1648 to the Present
-HIST 161 East Asian History
-HIST 162 South Asian History
-HIST 163 Modern Middle East History
-HIST 171 History of Africa to 1880
-HIST 172 History of Modern Africa
-HIST 225 The Golden Age of Atlantic Piracy
-HIST 226 History and Material Culture
-HIST 227 Public History
-HIST 235 The Civil Rights Movement
-HIST 241 Rome:Republic and Empire
-HIST 242 Medieval History
-HIST 243 Christianity and Islam: Encounters and Perceptions, 632-1683
-HIST 250 Rulers, Reform, and Revolution:The History of Early Modern Britain
-HIST 254 Russian History
-HIST 256 Scandinavian Immigration History
-HIST 262 Everybody Loves Gandhi
-HIST 271 African Diaspora
-HIST 290 Gender and Women's History
-HIST 291 Environmental History
-HIST 298 The Historian's Craft
-HIST 299 Topics in History - Abroad
-HIST 321 Topics in U.S. History
-HIST 331 Topics in African American History
-HIST 348 Vikings in History
-HIST 351 Topics in European History
-HIST 352 Scandinavia and the Baltic
-HIST 355 The Reformation in Renaissance Europe
-HIST 361 Topics in East Asian History
-HIST 362 Topics in South Asian History
-HIST 371 Topics in African History
-HIST 391 Topics in Africana History
-HIST 485 Junior-Senior Seminar
-HIST 490 Senior Project
-IS 135 Exploring Britain
-IS 136 Exploring Malta and the Mediterranean
-IS 230 Introduction to International Studies
-IS 450 Global Citizenship
-IS 485 International Studies Seminar
-IS 490 Senior Project
-INTS 130 Scholars Colloquium
-JOUR 100 News Practicum
-JOUR 380 Internship
-LAT 101 Elementary Latin I
-LAT 102 Elementary Latin II
-LAT 201 Intermediate Latin
-LAT 202 Readings in Latin
-LAT 301 Advanced Latin Prose
-LAT 302 Advanced Latin Poetry
-LAT 490 Senior Project
-LING 131 Introduction to Linguistics
-LING 133 Introduction to Syntax
-LING 220 Phonetics and Phonology
-LING 235 Words
-LING 250 Linguistic Pursuits
-LING 350 Linguistics Minor Capston
-LING 490 Senior Project
-MGT 110 Introduction to Business
-MGT 120 Personal Finance
-MGT 150 Statistics
-MGT 190 Business Communication
-MGT 240 Principles of Management
-MGT 250 Data Analysis for Business Decision-Making
-MGT 351 Principles of Marketing
-MGT 352 Human Resource Management
-MGT 353 Financial Management
-MGT 360 International Business Management
-MGT 361 Business Law: the Legal Environment of Business
-MGT 362 Entrepreneurship
-MGT 363 Negotiations and Conflict Resolution
-MGT 364 Sales, Advertising, and Promotion
-MGT 365 Investments
-MGT 366 Creativity and Innovation
-MGT 367 Organizational Behavior
-MGT 368 Electronic Commerce
-MGT 370 E-Marketing
-MGT 371 Project Management
-MGT 490 Senior Project
-MATH 110 Mathematics in Our World
-MATH 115 Introduction to Statistics
-MATH 123 Mathematics for Elementary School Teachers
-MATH 140 Calculus I with Review, Part A
-MATH 141 Calculus I with Review, Part B
-MATH 151 Calculus I
-MATH 152 Calculus II
-MATH 220 Mathematical Reasoning and Writing
-MATH 240 Linear Algebra
-MATH 253 Vector Calculus
-MATH 258 Chaotic Dynamical Systems
-MATH 260 Elementary Number Theory
-MATH 321 Probability and Statistics I
-MATH 322 Probability and Statistics II
-MATH 327 Applied Statistics I
-MATH 328 Applied Statistics II
-MATH 351 Ordinary Differential Equations
-MATH 365 Geometry
-MATH 452 Partial Differential Equations
-MATH 454 Principles of Real Analysis
-MATH 456 Functions of a Complex Variable
-MATH 459 Topology
-MATH 462 Numerical Analysis
-MATH 471 Abstract Algebra I
-MATH 472 Abstract Algebra II
-MATH 490 Senior Project
-MUST 120 Introduction to Museums
-MUST 220 Collections Management
-MUST 380 Internship
-MUS 110 Musicianship Workshop
-MUS 111 The Materials of Music
-MUS 115 Class Instruction: Piano, Voice, or Guitar
-MUS 116 Class Instruction-Piano or Voice
-MUS 117 Class Instruction-Piano
-MUS 118 Preparation for Piano Proficiency Test
-MUS 120 Introduction to Musical Styles
-MUS 121 Theory I
-MUS 121L Ear Training I
-MUS 122 Theory II
-MUS 122L Ear Training II
-MUS 130 Private Instruction
-MUS 131 Theory I - Honors
-MUS 131L Ear Training I - Honors
-MUS 132 Theory II - Honors
-MUS 132L Ear Training II - Honors
-MUS 145 Orchestral Repertoire For Harp
-MUS 227 Music/Performing Arts in the Elementary Classroom
-MUS 230 Private Instruction
-MUS 231 Theory III
-MUS 231L Ear Training III
-MUS 236 Music, Worship and Culture
-MUS 237 Worship and Music in the Life of the Church
-MUS 238 Composition Workshop
-MUS 244 Music History I: Medieval, Renaissance, And Baroque
-MUS 245 Choral Singing in Namibia and South Africa
-MUS 247 History of Jazz
-MUS 248 World Music Cultures
-MUS 249 Listening Live from London and Glasgow (England/Scotland)
-MUS 249 Listening Live in London and Vienna
-MUS 250 Introduction to Conducting
-MUS 265 Diction for Singers I: Italian and German
-MUS 266 Diction for Singers II: French and English
-MUS 267 Vocal Literature I: Italian/Spanish and German
-MUS 268 Vocal Literature Il: French and British/American
-MUS 272 Symphonic Music
-MUS 273 Chamber Music
-MUS 300 Music Ensembles
-MUS 330 Private Instruction
-MUS 332 Theory IV
-MUS 332L Ear Training IV
-MUS 345 Music History II: Classical and Romantic
-MUS 346 Music History III: Post-1900 Music And World Music
-MUS 351 Advanced Conducting: Choral
-MUS 353 Conducting: Instrumental
-MUS 356 Electro-Acoustic Music
-MUS 362 Opera Workshop: Scenes
-MUS 363 Opera Workshop: Production
-MUS 371 Orchestration
-MUS 376 Vocal and Instrumental Accompanying
-MUS 430 Private Instruction
-MUS 445 Performance Practices of the Renaissance And Baroque Periods
-MUS 446 Performance Practices of the Classical And Early Romantic Periods
-MUS 454 16th Century Counterpoint
-MUS 455 Analytical Studies
-MUS 469 Advanced Ear Training
-MUS 485 Seminar
-MUS 490 Senior Project
-MUS 491 Senior Project in Music Education
-NEUR 249 Brain and Behavior
-NEUR 254 Experimental Neuroscience
-NEUR 362 Neuroscience
-NEUR 485 Neuroscience Seminar
-NEUR 490 Senior Project
-NURS 138 Human Sexuality
-NURS 234 Pathways to Practice I
-NURS 235 Pathways to Practice I Clinical
-NURS 236 Pathways to Practice II
-NURS 237 Pathways to Practice II Clinical
-NURS 370 Health and Healing I
-NURS 371 Health and Healing I Clinical
-NURS 372 Health and Healing II
-NURS 373 Health and Healing II Clinical
-NURS 374 Behaviorial Health Care
-NURS 376 Behavioral Health Care Clinical
-NURS 377 Family/Child Nursing
-NURS 378 Family/Child Nursing Clinical
-NURS 382 Gerontological Nursing
-NURS 384 Evidence Based Practice
-NURS 386 Professional Nursing Practice: A Conceptual Immersion Experience
-NURS 388 Health Informatics
-NURS 390 Nursing Leadership in Health Care
-NURS 420 Population-Based Care
-NURS 421 Population-Based Care Clinical
-NURS 425 Synthesis of Clinical Practice Across The Lifespan
-NURS 478 Health Care Management
-NURS 480 Leadership Capstone
-NURS 490 Senior Project
-PAID 111D Paideia I:Enduring Questions
-PAID 112D Enduring Questions
-PAID 450 Ethical Choices
-PHIL 100 Introduction to Philosophy
-PHIL 105 Reasons
-PHIL 110 Logic
-PHIL 120 Ethics
-PHIL 130 Philosophy of Religion
-PHIL 140 Environmental Philosophy
-PHIL 150 Social and Political Philosophy
-PHIL 200 Ancient Philosophy
-PHIL 220 Early Modern Philosophy
-PHIL 230 Philosophy of Science
-PHIL 240 Philosophy of Art
-PHIL 260 Identity and Power
-PHIL 300 19th and 20th Century Philosophy
-PHIL 310 Metaphysics and Epistemology
-PHIL 320 Topics in Value Theory
-PHIL 330 Minds, Brains, and Persons
-PHIL 380 Internship
-PHIL 400 Advanced Topics in Philosophy
-PHIL 485 Seminar
-PHIL 490 Senior Project
-PE 110 Skills Class
-PE 130 Experiential Leadership
-PE 180 Wellness and Fitness Abroad
-PE 190 First Aid
-PE 221 Lifetime Skills and Activities
-PE 224 Principles of Fitness Assessment and Exercise Prescription
-PE 226 Ropes/Challenge Course Programming: Theory and Practice
-PE 229 Elementary Physical Education, Health, And Wellness: Methods and Materials
-PE 231 Psychological Skills Training
-PE 243 Sport and Society
-PE 244 Psychology of Coaching
-PE 247 Foundation of Physical Education
-PE 248 Foundations of Sports Psychology
-PE 250 Coaching of Sports
-PE 251 Care and Prevention of Athletic Injuries
-PE 260 Adaptive Physical Education
-PE 261 Applied Human Anatomy
-PE 323 Principles of Strength Training and Conditioning
-PE 342 Growth, Development and Motor Learning
-PE 343 Elementary School Physical Education Content, Methods and Assessment I
-PE 344 Elementary School Physical Education Content, Methods and Assessment II
-PE 345 Middle/Secondary School Physical Education Content, Methods and Assessment I
-PE 346 Middle/Secondary School Physical Education Content , Methods and Assessment II
-PE 365 Kinesiology
-PE 366 Physiology of Exercise
-PE 370 Personal Trainer Practicum Practicum
-PE 456 Administration and Curriculum in Physical Education
-PE 490 Senior Project
-PHYS 112 Energy and the Physical World
-PHYS 114 Physics of Sound and Musical Acoustics
-PHYS 151 General Physics I
-PHYS 152 General Physics II
-PHYS 181 Classical Physics I
-PHYS 182 Classical Physics II
-PHYS 238 Statics
-PHYS 281 Modern Physics I
-PHYS 282 Modern Physics II
-PHYS 311 Advanced Laboratory I
-PHYS 312 Advanced Laboratory II
-PHYS 352 Mechanics of Materials
-PHYS 354 Astrophysics
-PHYS 359 Thermal Physics
-PHYS 361 Classical Mechanics
-PHYS 364 Electricity and Magnetism
-PHYS 369 Numerical Physics
-PHYS 401 Particle and Nuclear Physics
-PHYS 411 Quantum Mechanics
-PHYS 490 Senior Project
-PHYS 491 Senior Project
-POLS 130 American Politics
-POLS 132 Global Politics
-POLS 171 Mock Trial
-POLS 237 Politics of the Middle East
-POLS 242 Comparative Political Analysis
-POLS 243 Law and the Quest for Justice
-POLS 247 Social Policy
-POLS 252 Politics and Religion
-POLS 258 Environmental Politics and Policy
-POLS 335 Terrorism and Democracy
-POLS 340 Environmental Justice and Law
-POLS 350 Economic Policy
-POLS 353 Political Parties and Interest Groups
-POLS 354 Women, Representation, and Politics
-POLS 355 Constitutional Law
-POLS 356 Civil Rights and Liberties
-POLS 357 Congress and the Presidency
-POLS 360 Global Environmental Politics
-POLS 362 The Sustainability of Political and Economic Development in Latin America
-POLS 363 International Relations
-POLS 364 United States Foreign Policy
-POLS 365 American Political Thought
-POLS 366 Political Thought
-POLS 367 Political Leadership
-POLS 485 Seminar
-POLS 490 Senior Project
-PSYC 130 General Psychology
-PSYC 240 Developmental Psychology
-PSYC 241 Psychology of Health and Illness
-PSYC 242 Evolutionary Psychology
-PSYC 243 Personality and Individual Differences
-PSYC 244 Animal Cognition
-PSYC 248 Pyschology of Religion
-PSYC 249 Brain and Behavior
-PSYC 270 Psychology and Aging
-PSYC 349 Research Methods in Psychology
-PSYC 350 Behavioral Statistics
-PSYC 352 Cognitive Processes
-PSYC 353 Social Psychology
-PSYC 354 Learning and Behavior
-PSYC 356 Stress, Coping, and Well-Being
-PSYC 358 Psychology of the Workplace
-PSYC 430 Applied Psychology
-PSYC 465 Abnormal Psychology
-PSYC 466 Psychological Tests and Measurement
-PSYC 468 Intro to Counseling
-PSYC 490 Senior Project
-REL 101 Introduction to Biblical Studies
-REL 111 Introduction to Hebrew Bible Studies Apocrypha
-REL 112 Introduction to New Testament Studies
-REL 120 Religion: Curse Or Blessing?
-REL 200 Ancient Mediterranean Heroes
-REL 201 Luther and Lutheranism
-REL 202 From Buddhist Texts to Anime
-REL 203 Rewriting Scripture: From Chronicles to The Qur'an
-REL 204 The World of the Bible
-REL 212 Sex in the Bible and the Qur'an
-REL 213 Archaeology and the Bible
-REL 217 Bible and Christian Faith
-REL 218 Christian Ethics
-REL 219 Christian Theology
-REL 220 Experiencing Mahayana Buddhism
-REL 221 History of Christian Thought
-REL 224 Islam: Historical Foundations and Contemporary Realities
-REL 225 Judaism
-REL 226 Religionless Christianity
-REL 228 Religion and Philosophy in Japan
-REL 230 God, Self, and the Afterlife
-REL 233 God and Gender
-REL 234 Clamoring for Change: Christianity and Social Change
-REL 235 Science and Religion
-REL 236 Disaster and Enlightenment: Pilgrimages East Asia
-REL 238 Islamophobia
-REL 240 Topics in Religion and Social Justice
-REL 243 Environmental Ethics
-REL 244 Religion and Sports
-REL 250 Living Religions
-REL 252 Introduction to Interfaith Studies
-REL 254 Religion in America
-REL 255 Religious Identity and Diversity in East Asia
-REL 258 Sacred Texts & Religious Diversity
-REL 301 Is Morality Any Good
-REL 302 R.a.c.e. (racism and Christianity Explored)
-REL 303 Religious Pluralism in Latin America and Caribbean
-REL 314 Teaching the Bible
-REL 316 Studying Jesus
-REL 370 Theology and Religious Diversity
-REL 371 Jesus and Jihad: A New Approach to Comparative Religion
-REL 485 Seminar
-REL 490 Senior Project
-RUS 101 Beginning Russian I
-RUS 102 Beginning Russian II
-RUS 201 Intermediate Russian
-RUS 202 Intermediate Russian
-RUS 241 Russian Culture Through Film
-RUS 243 Time of Stalin: Literature and Memoirs
-RUS 341 Russian Life and Culture
-RUS 345 Conversation and Composition
-RUS 350 Topics in Russian/Soviet Literature
-RUS 490 Senior Project
-SCST 101 Elementary Norwegian I
-SCST 102 Elementary Norwegian II
-SCST 201 Intermediate Norwegian
-SCST 202 Norwegian Through Film and Literature
-SCST 250 Topics in Nordic Literature
-SCST 251 Topics in Nordic Film
-SCST 345 Composition, Conversation, and Advanced Grammar
-SCST 346 Scandinavian Immigration History
-SCST 348 Vikings in History
-SCST 352 Scandinavia and the Baltic
-SCST 361 Henrik Ibsen
-SCST 363 Norway's Nobel Prize-Winning Authors
-SCST 490 Senior Project
-SCI 110 Medical Terminology
-SCI 111 Physical Science
-SCI 112 Energy and the Physical World
-SCI 121 Introduction to Astronomy
-SCI 123 Introduction to Meteorology
-SCI 125 Great Ideas in Natural Science
-SCI 127 The Science of Science Fiction
-SCI 225 Women in Science
-SCI 240 Pathophysiology
-SCI 250 Clinical Pharmacology
-SCI 340 Science Communication Seminar
-SW 101 Introduction to Social Work and Social Welfare
-SW 102 Social Work Field Experience
-SW 110 Mental Health First Aid
-SW 201 Fundamentals of Social Work Practice I
-SW 204 Human Behavior in the Social Environment I
-SW 301 Social Work Practice II
-SW 303 Human Behavior in the Social Environment II
-SW 304 Social Welfare Policies, Programs, and Issues
-SW 305 Research Methods for Social Work
-SW 401 Social Work Practice III
-SW 402 Field Instruction in Social Work Practice
-SW 403 Professional Seminar
-SW 490 Senior Project
-SOC 101 Introduction to Sociology
-SOC 242 Sociology of Gender
-SOC 253 Crime and Deviance
-SOC 261 Social Conflict
-SOC 270 Haters Gonna Hate: The Study of Hate Crimes and Hate Groups
-SOC 273 Crime and Media
-SOC 276 Social Theory and Praxis
-SOC 283 Sociology of Education
-SOC 290 Visual Sociology
-SOC 301 Research Methodology
-SOC 345 Constructs of Race and Racialization
-SOC 347 Sociology of the Family
-SOC 350 Social Statistics
-SOC 351 Gender and Crime
-SOC 356 Environmental Sociology
-SOC 358 Social Psychology
-SOC 453 Seminar: Law and Human Rights
-SOC 461 Seminar: Contemporary Issues of Immigration
-SOC 468 Seminar: Gender, Globalization and Development
-SOC 472 Seminar: Social Institutions
-SOC 475 Seminar: Social Movements
-SOC 490 Senior Project
-SPAN 101 Elementary Spanish I
-SPAN 102 Elementary Spanish II
-SPAN 201 Intermediate Spanish
-SPAN 302 Conversation and Listening Comprehension
-SPAN 303 Written Expression
-SPAN 304 Advanced Grammar and Translation
-SPAN 335 Cultural Expressions of the Hispanic World
-SPAN 340 Language and Culture in the Spanish-Speaking World
-SPAN 341 Spanish for Medical Professionals
-SPAN 346 Introduction to the Study of Hispanic Literature
-SPAN 350 Practical and Professional Uses of Spanish
-SPAN 450 Seminar in Spanish Penisular Literature And Culture
-SPAN 460 Seminar in Latin American Literature and Culture
-SPAN 490 Senior Project
-THE 100 Performance Practicum
-THE 103 Art of Illusion:Costuming and Makeup
-THE 104 Art of Illusion:Scenery and Properties
-THE 105 Acting I:Text in Performance
-THE 127 Design I: Visual Principles
-THE 200 Stagecraft Practicum
-THE 203 Costume History
-THE 204 Lighting Design
-THE 205 Acting: Improvisation, Ensemble, and Clown
-THE 206 Graphic Design
-THE 207 Contemporary Plays
-THE 222 Acting: Shakespeare
-THE 300 Production Studio
-THE 305 Acting: Special Topics
-THE 327 Design Ii: Scenography
-THE 351 Theatre History I
-THE 352 Theatre History II
-THE 360 Directing
-THE 490 Senior Seminar
-THE 491 Senior Project
-WGST 130 Introduction to Women and Gender Studies
-WGST 131 Contact Improvisation
-WGST 147 Literature of African Peoples
-WGST 195 Biology of Race And Sex
-WGST 212 Sex in the Bible and the Qur'an
-WGST 225 Women in Science
-WGST 240 Africana Women's Writing
-WGST 242 Sociology of Gender
-WGST 243 Time of Stalin: Literature and Memoirs Literature and Memoirs
-WGST 245 Literature By Women
-WGST 251 African-American Literature
-WGST 260 Identity and Power
-WGST 270 Psychology and Aging
-WGST 290 Gender and Women's History
-WGST 320 Women and Gender in the Classical World
-WGST 331 Gender, Health and Medicine
-WGST 335 Masculinity in Film
-WGST 337 God and Gender
-WGST 350 Gendered Activism in a Global Context
-WGST 351 Gender and Crime
-WGST 354 Women, Representation, and Politics
-WGST 361 Chaucer and Medieval Literature
-WGST 368 Gender in Art
-WGST 381 Internship
-WGST 468 Seminar: Gender, Globalization, and Development
-WGST 485 Seminar: Topics in Women and Gender Studies
-WGST 490 Senior Project
+ACCTG 110|Introduction to Accounting|2
+ACCTG 150|Fundamentals of Accounting|4
+ACCTG 250|Managerial Cost Accounting I|4
+ACCTG 353|Intermediate Accounting I|4
+ACCTG 354|Intermediate Accounting II|4
+ACCTG 357|Accounting for Government and Nonprofit Entities|2
+ACCTG 358|Managerial Cost Accounting II|4
+ACCTG 365|Advanced Accounting|4
+ACCTG 467|Auditing and Assurance Services|4
+ACCTG 468|Federal Income Taxation|4
+ACCTG 490|Senior Project|4
+AFRS 135|African-American History|4
+AFRS 147|Literature of the African Peoples|4
+AFRS 171|History of Africa to 1880|4
+AFRS 172|History of Modern Africa|4
+AFRS 221|Anthropology in East Africa: Forces of Culture Change Among the Massai|4
+AFRS 235|The Civil Rights Movement|4
+AFRS 240|Africana Women's Writing|4
+AFRS 247|History of Jazz|4
+AFRS 251|African-American Literature|4
+AFRS 271|African Diaspora|4
+AFRS 331|Topics in African American History|4
+AFRS 345|Constructs of Race and Racialization|4
+AFRS 371|Topics in African History|4
+AFRS 391|Topics in Africana History|4
+AFRS 485|Junior/Senior Seminar|4
+ANTH 101|Cultural Anthropology|4
+ANTH 102|Biological Anthropology|4
+ANTH 103|Linguistic Anthropology|4
+ANTH 104|Archaeology|4
+ANTH 203|Environmental Anthropology|4
+ANTH 204|This is Not Your Country: An Anthropology of Migration|4
+ANTH 205|Religion and Culture|4
+ANTH 208|Medical Anthropology|4
+ANTH 209|Born to Run|4
+ANTH 210|Qualitative Research Methods in Anthropology|4
+ANTH 211|Quantitative Research Methods in Anthropology|4
+ANTH 221|Anthropology in East Africa: Culture Change Among the Maasai|4
+ANTH 264|Pre-Columbian and Native American Art|4
+ANTH 301|Experimental Archaeology|4
+ANTH 302|Field Methods in Archaeology|6
+ANTH 303|Consumerism and Sustainability An Anthropological Perspective|4
+ANTH 306|Sugar, Strawberries and Pills: Anthropology of Commodity Chains|4
+ANTH 401|Anthropological Theory|4
+ART 101|Art Matters|4
+ART 103|Foundations: Circa Now|2
+ART 104|Foundations: Visual Thinking|4
+ART 105|Science and the Aesthetic (Italy Semester)|4
+ART 108|Foundations: Drawing|4
+ART 111|Foundations: 3-DIMENSIONAL Processes|4
+ART 114|Sequential Art, Animation and the Graphic Novel|4
+ART 115|Scandinavian Fine Handcraft|4
+ART 121|World Pottery|4
+ART 200|Painting I|4
+ART 205|Art and Technology|4
+ART 206|Graphic Design I|4
+ART 207|3D Modeling and Animation|4
+ART 208|Life Drawing|4
+ART 209|2D Studio I|4
+ART 210|Ceramics I|4
+ART 216|Printmaking I|4
+ART 218|Photography I|4
+ART 222|Art and Community: Introductory Art Methods & Materials|2
+ART 228|Art in Elementary Schools|2
+ART 231|4D Art Lab I|4
+ART 290|Art in Cultural Perspective|4
+ART 300|Painting II|4
+ART 306|Graphic Design II|4
+ART 307|3D Modeling and Animation II|4
+ART 309|2D Studio II|4
+ART 310|Ceramics II|4
+ART 311|Installation|4
+ART 316|Printmaking II|4
+ART 318|Photography II|4
+ART 320|Critical Theory|4
+ART 331|4D Art Lab II|4
+ART 384|Studio Projects|4
+ART 487|Art Colloguium|0
+ART 490|Senior Project|2
+ART 491|Senior Project|2
+ARTH 251|Survey of Western Art I|4
+ARTH 252|Survey of Western Art II|4
+ARTH 262|American Art|4
+ARTH 264|Pre-Columbian and Native American Art|4
+ARTH 362|19th Century Art|4
+ARTH 364|20th Century Art|4
+ARTH 368|Gender in Art|4
+ARTH 379|Art History Methods|2
+ATHTR 265|Clinical I: Introduction to Athletic Training|4
+ATHTR 268|Clinical II: Head, Neck, Thorax, Abdomen, and Upper Extremity Assessment|4
+ATHTR 365|Clinical III: Spine, Lower Extremity, and Posture Assessment|4
+ATHTR 367|General Medical and Pharmacology|4
+ATHTR 368|Clinical IV:Therapeutic Modalities and Exercise|4
+ATHTR 370|Therapeutic Modalities in Athletic Training|2
+ATHTR 372|Therapeutic Exercise in Athletic Training|2
+ATHTR 465|Clinical V:Health Care Administration|4
+ATHTR 468|Clinical VI: Advanced Health Care|2
+BIO 112|Insects, Humans and the Environment|4
+BIO 115|Human Anatomy|4
+BIO 116|Intro to Human Physiology|4
+BIO 125|Genetics and Society|4
+BIO 140|Introduction to Ecology of the Southwest|4
+BIO 149|Introduction to Winter Biology|4
+BIO 151|Principles of Biology:Ecology, Evolution and Biodiversity|4
+BIO 152|Principles of Biology: Molecules, Cells, and Genes|4
+BIO 195|Biology of Race And Sex|4
+BIO 231|Microscopy|2
+BIO 232|Microscopy Laboratory|2
+BIO 240|Ecology of the Southwest|4
+BIO 241|Radioisotopes in Science|2
+BIO 242|Animal Behavior|4
+BIO 243|Microbiology|4
+BIO 245|Ecology of Ecuador|4
+BIO 246|Ornithology|2
+BIO 247|Subtropical and Marine Biology|4
+BIO 248|Genetics|4
+BIO 249|Winter Biology|4
+BIO 250|Restoration and Conservation Biology|4
+BIO 251|Entomology|4
+BIO 252|Botany|4
+BIO 253|Invertebrate Zoology|4
+BIO 254|Experimental Neuroscience|4
+BIO 255|Human Physiology|4
+BIO 256|Biostatistics|4
+BIO 258|Vertebrate Natural History|4
+BIO 261|Developmental Biology|4
+BIO 262|Environmental Animal Physiology|4
+BIO 264|Advanced Topics in Biology|2
+BIO 301|Human Dissection and Anatomy|4
+BIO 303|Bioethics|2
+BIO 354|Evolutionary Biology|4
+BIO 356|Genomics|4
+BIO 358|Toxicology|4
+BIO 359|Virology|4
+BIO 362|Neuroscience|4
+BIO 363|Molecular Biology|4
+BIO 364|Cell Biology|4
+BIO 365|Ecology|4
+BIO 367|Endocrinology|4
+CHEM 114|The Environment: A Chemical Perspective|4
+CHEM 141|Essentials of Chemistry|4
+CHEM 151|Chemical Principles I|4
+CHEM 152|Chemical Principles II|4
+CHEM 201|Advanced Chemical Principles|4
+CHEM 202|Analytical Chemistry|4
+CHEM 241|Organic Chemistry I|4
+CHEM 242|Organic Chemistry II|4
+CHEM 301|Biochemistry|4
+CHEM 344|Instrumental Methods: Spectroscopic Techniques|2
+CHEM 345|Instructional Methods: Separations and Electrochemistry|2
+CHEM 349|Biochemistry Laboratory|2
+CHEM 351|Chemical Kinetics|2
+CHEM 361|Quantum Chemistry and Spectroscopy|4
+CHEM 362|Thermodynamics|2
+CHEM 365|Spectroscopy and Separations Lab|2
+CHEM 366|Thermodynamics and Kinetics Laboratory|2
+CHEM 371|Polymer Chemistry|2
+CHEM 372|Organometallic Chemistry|2
+CHEM 373|Solid State Chemistry|2
+CHEM 376|Advanced Organic Chemistry|2
+CHEM 379|Inorganic Synthesis Laboratory|2
+CHEM 474|Physical Inorganic Chemistry|2
+CHEM 490|Senior Project|2
+CHIN 101|Beginning Chinese|4
+CHIN 102|Beginning Chinese|4
+CHIN 201|Intermediate Chinese|4
+CHIN 202|Intermediate Chinese|4
+CHIN 242|Chinese Cinema and Chinese Modernity|4
+CLAS 240|Classical Mythology|4
+CLAS 250|The World of Ancient Greece|4
+CLAS 255|Ancient Roman Culture|4
+CLAS 265|Greece and Rome on Film|4
+CLAS 270|Archaeology of Ancient Greece|4
+CLAS 275|Archaeology of Ancient Rome|4
+CLAS 299|Study Abroad-Classics|4
+CLAS 300|Classics and Culture|4
+CLAS 310|Ancient Science|4
+CLAS 360|The World of St. Patrick|4
+CLAS 490|Senior Project|4
+COMS 130|Interpersonal Communication|4
+COMS 132|Public Address|4
+COMS 133|Mass Media and Popular Culture|4
+COMS 233|Rhetoric of Spirituality|4
+COMS 234|Rhetoric of Everyday Life|4
+COMS 236|Small Group Communication|4
+COMS 246|The Internet and American Life|4
+COMS 250|Contemporary Journalism|4
+COMS 255|Advanced Public Address|4
+COMS 258|Concepts of Media Production|4
+COMS 260|Sport, Media and Society|4
+COMS 320|Urban America and Serial Television: Critically Analyzing "The Wire"|4
+COMS 330|Family Communication|4
+COMS 335|Masculinity in Film|4
+COMS 347|Critical Television Studies|4
+COMS 348|Radio Journalism|4
+COMS 350|Intercultural Communication|4
+COMS 353|Argumentation|4
+COMS 354|Persuasion and Social Influence|4
+COMS 356|Rhetorical Theories|4
+COMS 357|Research Methods|4
+COMS 358|Concepts of Media Production II: The Documentary|4
+COMS 362|Communication Theories|4
+COMS 370|The Dark Side of Interpersonal Communication|4
+COMS 463|Public Relations and Corporate Communication|4
+COMS 490|Senior Project|2
+CS 140|Data Modeling and Querying|2
+CS 150|Introduction to Computer Science|4
+CS 160|Algorithms and Data Structures|4
+CS 165|Software Development Tools|2
+CS 252|Object-Oriented Programming With Java|2
+CS 253|Object-Oriented Programming With C++|2
+CS 260|Computational Models|4
+CS 320|Data Analysis and Visualization|4
+CS 330|Internet Programming|4
+CS 352|Embedded Android Programming|4
+CS 353|Embedded iOS Programming|4
+CS 360|Advanced Algorithms and Data Structures|4
+CS 370|Programming Languages|4
+CS 385|Understanding Entrepreneurship in Silicon Valley|4
+CS 420|Machine Learning|4
+CS 430|Computer Networks|4
+CS 440|Database Managment Systems|4
+CS 450|Operating Systems and Architecture|4
+CS 490|Senior Project|2
+CS 491|Senior Project|2
+DAN 100|Performance Practicum|0
+DAN 101|Dance Technique and Analysis|4
+DAN 105|Movement Fundamentals I: Practices of Alignment and Function|4
+DAN 130|Contact Improvisation|4
+DAN 199|Dance Synthesis|0
+DAN 205|Movement Fundamentals II: Practices of Range and Efficiency|4
+DAN 230|Contact Improvisation II|4
+DAN 264|Performance Research:The Happenings Course|4
+DAN 305|Movement Fundamentals III:Practices of Vocabulary and Intention|4
+DAN 351|Dance History|4
+DAN 360|Dance Composition|4
+DAN 490|Senior Seminar|2
+DAN 491|Senior Project|2
+DS 120|Introduction to Data Science|4
+DS 320|Data Analysis and Visualization|4
+DS 420|Applied Machine Learning|4
+DS 490|Senior Project|4
+ECON 130|Principles of Economics|4
+ECON 142|Economic Numeracy|4
+ECON 247|Intermediate Economic Theory: Macro|4
+ECON 248|Intermediate Economic Theory: Micro|4
+ECON 255|Environmental Economics|4
+ECON 256|Economic History|4
+ECON 262|Development Economics|4
+ECON 268|Law and Economics|4
+ECON 333|Economics of Information and Networks|4
+ECON 342|Introduction to Econometrics|4
+ECON 361|Money, Credit, and Banking|4
+ECON 362|International Economics|4
+ECON 366|Public Finance|4
+ECON 490|Senior Project|4
+EDUC 185|Clinical Experience I in the Schools|4
+EDUC 215|Clinical Experience I in the Schools|4
+EDUC 220|Educational Psychology|4
+EDUC 221|The Diverse and Exceptional Learner|4
+EDUC 222|Instructional Strategies With Computer Applications: Elementary|4
+EDUC 223|Children's Literature|2
+EDUC 226|Introduction to Reading|4
+EDUC 232|Music Education Curriculum and Strategies|2
+EDUC 240|Home, School, and Community|2
+EDUC 242|Introduction to Learning Disabilities and Behavioral Issues|4
+EDUC 245|Career/Vocational Assessment and Vocational Planning|2
+EDUC 246|Classroom Management and Collaboration|4
+EDUC 252|Introduction to Middle and High School 5-12 Methods|2
+EDUC 255|Percussion Methods|2
+EDUC 260|Brass Methods|2
+EDUC 265|Double Reeds Methods|2
+EDUC 270|String Methods|2
+EDUC 275|Flute, Clarinet and Saxophone Methods|2
+EDUC 323|Teaching Methods for English Language Learners|4
+EDUC 324|Assessment for English Language Learners|2
+EDUC 325|Elementary Mathematics Methods|4
+EDUC 326|Elementary Language Arts Methods|4
+EDUC 328|Elementary Social Studies Methods|2
+EDUC 329|Elementary Science Methods|2
+EDUC 330|Introduction to Early Childhood Education|4
+EDUC 331|Early Childhood Education II|2
+EDUC 332|The Middle School Learner|4
+EDUC 333|Middle School Methods|4
+EDUC 344|Methods and Strategies for Teaching Students With Learning Disabilities and Behavioral Issues|4
+EDUC 347|Assessment in Special and Remedial Education|2
+EDUC 352|Advanced Teaching Methods: Secondary|2
+EDUC 354|Elementary School Art Content, Methods, and Assessment|2
+EDUC 355|Art Inside and Outside the Classroom: Art Education Methods for Secondary Students and Community-Based Arts Organizations|4
+EDUC 361|Clinical Exp. in Mus Educ Clinical Experience in Music Education|2
+EDUC 366|Advanced Methods Clinical Placement|2
+EDUC 367|Advanced Teaching Methods II|2
+EDUC 371|Elementary General Music Methods And Lab|4
+EDUC 372|Middle School General Music Methods|2
+EDUC 376|Advanced Literacy:Assessment and Instructional Design for At Risk Readers|2
+EDUC 377|Content Area Reading:Secondary/K-12 Art & PE|2
+EDUC 378|Content Area Reading, Elementary/Middle School|2
+EDUC 379|Content Area Reading: K-12 Music|2
+EDUC 383|Middle School Choral Methods|2
+EDUC 384|Middle and High School Marching Band Methods|2
+EDUC 385|Middle and High School Jazz Methods|2
+EDUC 386|Vocal Pedagogy and Methods|2
+EDUC 387|High School Choral Methods|2
+EDUC 388|Beginning and Middle School Orchestra Methods|2
+EDUC 390|Middle School and High School Concert Band Methods|2
+EDUC 391|High School Orchestra Methods|2
+EDUC 470|Music Education Senior Capstone: Administration of School Music Programs|2
+ENG 110|Introduction to College Writing|2
+ENG 130|Literary Ventures|4
+ENG 147|Literature of the African Peoples|4
+ENG 210|Effective Writing|4
+ENG 211|Writing for Media|4
+ENG 212|Creative Writing:Poetry and Fiction I|4
+ENG 213|Creative Writing: Nonfiction|4
+ENG 230|The Writer's Voice|4
+ENG 231|Film|4
+ENG 240|Africana Women's Writing|4
+ENG 245|Literature By Women|4
+ENG 247|Literature and Ecology|4
+ENG 251|African-American Literature|4
+ENG 260|Shakespeare|4
+ENG 261|Shakespeare Performed|4
+ENG 262|Tolkien and Lewis in Context|4
+ENG 312|Creative Writing: Poetry & Fiction II|4
+ENG 314|Rhetoric: History, Theory, Practice|4
+ENG 320|Contemporary Literature|4
+ENG 334|Young Adult Literature|4
+ENG 352|American Frontiers: American Literature To 1860|4
+ENG 353|American Literature 1860 to the Present|4
+ENG 354|American Novel|4
+ENG 361|Chaucer and Medieval Literature|4
+ENG 362|Renaissance Literature|4
+ENG 363|Milton|4
+ENG 364|Restoration and Eighteenth-Century British Literature|4
+ENG 365|British Romanticism: Revolution, Nature, And the Imagination|4
+ENG 366|The Victorians|4
+ENG 367|Twentieth-Century British Literature|4
+ENG 368|The British Novel|4
+ENG 485|Seminar|4
+ENVS 112|Energy and the Physical World|4
+ENVS 130|Environmental Forays|4
+ENVS 133|Environmental Conservation|4
+ENVS 134|The Earth System|4
+ENVS 175|Introduction to Geographic Information Systems|2
+ENVS 210|Climate Dynamics and Modeling|4
+ENVS 215|Environmental Education|4
+ENVS 220|Earth System Biogeochemistry|4
+ENVS 225|Earth's Climate: Past, Present, and Future|4
+ENVS 230|Earth Systems and the Environmenty(Italy Semester)|4
+ENVS 240|Environmental Issues in the Pacific Northwest|4
+ENVS 250|Sustainability, Systems and Solutions|4
+ENVS 320|Soil Genesis, Morphology and Classification|4
+ENVS 330|The Geology of Italy (Italy Semester)|4
+ENVS 485|Seminar|4
+FCUL 142|China in the World|4
+FCUL 241|Russian Culture Through Film|4
+FCUL 242|Chinese Cinema and Chinese Modernity|4
+FCUL 243|Time of Stalin - Literature and Memoirs|4
+FCUL 250|Topics in Nordic Literature|4
+FCUL 251|Topics in Nordic Film|4
+FCUL 341|Russian Life and Culture|4
+FCUL 350|Topics in Russian/Soviet Literature|4
+FCUL 361|Henrik Ibsen|4
+FCUL 363|Norway's Nobel Prize-Winning Authors|4
+FREN 101|Elementary French I|4
+FREN 102|Elementary French II|4
+FREN 201|Intermediate French|4
+FREN 202|Intermediate French|4
+FREN 342|Introduction to French Culture|4
+FREN 344|Advanced Grammar and Composition|4
+FREN 345|Conversation and Phonetics|4
+FREN 346|Introduction to French Literature I|4
+FREN 347|Introduction to Commercial French|4
+FREN 348|Introduction to French Literature II|4
+FREN 460|Topics in French Literatureyand Culture|4
+FREN 464|Francophone Literatures and Cultures|4
+GS 100|Foundations for Learning and Development|2
+GS 110|Critical Reading and Learning|2
+GS 200|Lives that Matter: Vocation, Self and Service (Arizona)|4
+GER 101|Elementary German I|4
+GER 102|Elementary German II|4
+GER 201|Intermediate German|4
+GER 202|Conversation and Comprehension|4
+GER 342|German Culture|4
+GER 344|German Play|4
+GER 345|Advanced German Grammar|4
+GER 346|Introduction to German Literature: From Runes to Rap|4
+GER 348|Advanced Conversation and Comprehension|4
+GER 450|Masterpieces of German Literature|4
+GER 460|Contemporary German Literature And Culture|4
+GER 470|Topics in German Literature and Culture|4
+GRK 101|Elementary Greek I|4
+GRK 102|Elementary Greek II|4
+GRK 201|Intermediate Greek|4
+GRK 202|Readings in Greek|4
+GRK 301|Advanced Greek Prose|4
+GRK 302|Advanced Greek Poetry|4
+GRK 490|Senior Project|4
+HLTH 125|Nutrition I|2
+HLTH 126|Nutrition II|2
+HLTH 201|Foundations of Health Education|2
+HLTH 233|Mental/ Emotional Health: Stress Management|4
+HLTH 234|Family Life Education|2
+HLTH 249|Personal and Community Health|4
+HLTH 343|Health Education Content, Methods, and Assessment I|2
+HLTH 344|Health Education Content, Methods, And Assessment II|2
+HLTH 352|Consumer Health and Safety Education|2
+HLTH 358|Substance Abuse Education|4
+HLTH 372|Administration and Management of Fitness Programs|2
+HLTH 465|Current Issues in Health|2
+HEB 101|Elementary Hebrew I|4
+HEB 102|Elementary Hebrew II|4
+HEB 201|Intermediate Hebrew|4
+HIST 101|Introduction to the History of the United States for Elementary School Teachers|4
+HIST 111|Survey of US History Part One|4
+HIST 112|Survey of US History Part Two|4
+HIST 126|Human Geography|4
+HIST 135|African-American History|4
+HIST 149|Europe to 1648|4
+HIST 150|Europe, 1648 to the Present|4
+HIST 161|East Asian History|4
+HIST 162|South Asian History|4
+HIST 163|Modern Middle East History|4
+HIST 171|History of Africa to 1880|4
+HIST 172|History of Modern Africa|4
+HIST 225|The Golden Age of Atlantic Piracy|4
+HIST 226|History and Material Culture|4
+HIST 227|Public History|4
+HIST 235|The Civil Rights Movement|4
+HIST 241|Rome:Republic and Empire|4
+HIST 242|Medieval History|4
+HIST 243|Christianity and Islam: Encounters and Perceptions, 632-1683|4
+HIST 250|Rulers, Reform, and Revolution:The History of Early Modern Britain|4
+HIST 254|Russian History|4
+HIST 256|Scandinavian Immigration History|4
+HIST 262|Everybody Loves Gandhi|4
+HIST 271|African Diaspora|4
+HIST 290|Gender and Women's History|4
+HIST 291|Environmental History|4
+HIST 298|The Historian's Craft|4
+HIST 299|Topics in History - Abroad|4
+HIST 321|Topics in U.S. History|4
+HIST 331|Topics in African American History|4
+HIST 348|Vikings in History|4
+HIST 351|Topics in European History|4
+HIST 352|Scandinavia and the Baltic|4
+HIST 355|The Reformation in Renaissance Europe|4
+HIST 361|Topics in East Asian History|4
+HIST 362|Topics in South Asian History|4
+HIST 371|Topics in African History|4
+HIST 391|Topics in Africana History|4
+HIST 485|Junior-Senior Seminar|4
+HIST 490|Senior Project|2
+IS 135|Exploring Britain|4
+IS 136|Exploring Malta and the Mediterranean|2
+IS 230|Introduction to International Studies|4
+IS 450|Global Citizenship|4
+IS 485|International Studies Seminar|4
+JOUR 100|News Practicum|0
+LAT 101|Elementary Latin I|4
+LAT 102|Elementary Latin II|4
+LAT 201|Intermediate Latin|4
+LAT 202|Readings in Latin|4
+LAT 301|Advanced Latin Prose|4
+LAT 302|Advanced Latin Poetry|4
+LAT 490|Senior Project|4
+LING 131|Introduction to Linguistics|4
+LING 133|Introduction to Syntax|4
+LING 220|Phonetics and Phonology|4
+LING 235|Words|4
+LING 250|Linguistic Pursuits|4
+MGT 110|Introduction to Business|2
+MGT 120|Personal Finance|4
+MGT 150|Statistics|4
+MGT 190|Business Communication|2
+MGT 240|Principles of Management|4
+MGT 250|Data Analysis for Business Decision-Making|4
+MGT 351|Principles of Marketing|4
+MGT 352|Human Resource Management|4
+MGT 353|Financial Management|4
+MGT 360|International Business Management|4
+MGT 361|Business Law: the Legal Environment of Business|4
+MGT 362|Entrepreneurship|4
+MGT 363|Negotiations and Conflict Resolution|4
+MGT 364|Sales, Advertising, and Promotion|4
+MGT 365|Investments|4
+MGT 366|Creativity and Innovation|4
+MGT 367|Organizational Behavior|4
+MGT 368|Electronic Commerce|4
+MGT 370|E-Marketing|4
+MGT 371|Project Management|4
+MATH 110|Mathematics in Our World|4
+MATH 115|Introduction to Statistics|4
+MATH 123|Mathematics for Elementary School Teachers|4
+MATH 140|Calculus I with Review, Part A|4
+MATH 141|Calculus I with Review, Part B|4
+MATH 151|Calculus I|4
+MATH 152|Calculus II|4
+MATH 220|Mathematical Reasoning and Writing|4
+MATH 240|Linear Algebra|4
+MATH 253|Vector Calculus|4
+MATH 258|Chaotic Dynamical Systems|4
+MATH 260|Elementary Number Theory|4
+MATH 321|Probability and Statistics I|4
+MATH 322|Probability and Statistics II|4
+MATH 327|Applied Statistics I|4
+MATH 328|Applied Statistics II|4
+MATH 351|Ordinary Differential Equations|4
+MATH 365|Geometry|4
+MATH 452|Partial Differential Equations|4
+MATH 454|Principles of Real Analysis|4
+MATH 456|Functions of a Complex Variable|4
+MATH 459|Topology|4
+MATH 462|Numerical Analysis|4
+MATH 471|Abstract Algebra I|4
+MUST 120|Introduction to Museums|4
+MUST 220|Collections Management|4
+MUS 111|The Materials of Music|2
+MUS 118|Preparation for Piano Proficiency Test|0
+MUS 120|Introduction to Musical Styles|4
+MUS 121|Theory I|3
+MUS 122|Theory II|3
+MUS 131|Theory I - Honors|3
+MUS 132|Theory II - Honors|3
+MUS 227|Music/Performing Arts in the Elementary Classroom|2
+MUS 231|Theory III|3
+MUS 236|Music, Worship and Culture|4
+MUS 237|Worship and Music in the Life of the Church|2
+MUS 244|Music History I: Medieval, Renaissance, And Baroque|4
+MUS 245|Choral Singing in Namibia and South Africa|4
+MUS 247|History of Jazz|4
+MUS 248|World Music Cultures|4
+MUS 249|Listening Live from London and Glasgow (England/Scotland)|4
+MUS 249|Listening Live in London and Vienna|4
+MUS 250|Introduction to Conducting|2
+MUS 265|Diction for Singers I: Italian and German|2
+MUS 266|Diction for Singers II: French and English|2
+MUS 267|Vocal Literature I: Italian/Spanish and German|2
+MUS 268|Vocal Literature Il: French and British/American|2
+MUS 272|Symphonic Music|2
+MUS 300|Music Ensembles|0
+MUS 332|Theory IV|3
+MUS 345|Music History II: Classical and Romantic|4
+MUS 346|Music History III: Post-1900 Music And World Music|4
+MUS 351|Advanced Conducting: Choral|2
+MUS 353|Conducting: Instrumental|2
+MUS 356|Electro-Acoustic Music|2
+MUS 371|Orchestration|2
+MUS 376|Vocal and Instrumental Accompanying|2
+MUS 445|Performance Practices of the Renaissance And Baroque Periods|2
+MUS 446|Performance Practices of the Classical And Early Romantic Periods|2
+MUS 454|16th Century Counterpoint|2
+MUS 455|Analytical Studies|2
+NEUR 249|Brain and Behavior|4
+NEUR 254|Experimental Neuroscience|4
+NEUR 362|Neuroscience|4
+NEUR 485|Neuroscience Seminar|2
+NURS 138|Human Sexuality|4
+NURS 234|Pathways to Practice I|2
+NURS 235|Pathways to Practice I Clinical|2
+NURS 236|Pathways to Practice II|2
+NURS 237|Pathways to Practice II Clinical|2
+NURS 370|Health and Healing I|2
+NURS 371|Health and Healing I Clinical|2
+NURS 372|Health and Healing II|2
+NURS 373|Health and Healing II Clinical|2
+NURS 374|Behaviorial Health Care|2
+NURS 376|Behavioral Health Care Clinical|2
+NURS 377|Family/Child Nursing|4
+NURS 378|Family/Child Nursing Clinical|2
+NURS 382|Gerontological Nursing|2
+NURS 384|Evidence Based Practice|2
+NURS 386|Professional Nursing Practice: A Conceptual Immersion Experience|2
+NURS 388|Health Informatics|2
+NURS 390|Nursing Leadership in Health Care|2
+NURS 420|Population-Based Care|2
+NURS 421|Population-Based Care Clinical|2
+NURS 425|Synthesis of Clinical Practice Across The Lifespan|2
+NURS 478|Health Care Management|2
+NURS 480|Leadership Capstone|4
+PAID 450|Ethical Choices|4
+PHIL 100|Introduction to Philosophy|4
+PHIL 105|Reasons|2
+PHIL 110|Logic|4
+PHIL 120|Ethics|4
+PHIL 130|Philosophy of Religion|4
+PHIL 140|Environmental Philosophy|4
+PHIL 150|Social and Political Philosophy|4
+PHIL 200|Ancient Philosophy|4
+PHIL 220|Early Modern Philosophy|4
+PHIL 230|Philosophy of Science|4
+PHIL 240|Philosophy of Art|4
+PHIL 260|Identity and Power|4
+PHIL 300|19th and 20th Century Philosophy|4
+PHIL 310|Metaphysics and Epistemology|4
+PHIL 320|Topics in Value Theory|4
+PHIL 330|Minds, Brains, and Persons|4
+PHIL 400|Advanced Topics in Philosophy|4
+PHIL 485|Seminar|4
+PE 130|Experiential Leadership|2
+PE 180|Wellness and Fitness Abroad|4
+PE 221|Lifetime Skills and Activities|2
+PE 224|Principles of Fitness Assessment and Exercise Prescription|2
+PE 226|Ropes/Challenge Course Programming: Theory and Practice|2
+PE 229|Elementary Physical Education, Health, And Wellness: Methods and Materials|2
+PE 231|Psychological Skills Training|2
+PE 243|Sport and Society|4
+PE 244|Psychology of Coaching|2
+PE 247|Foundation of Physical Education|2
+PE 248|Foundations of Sports Psychology|4
+PE 250|Coaching of Sports|2
+PE 251|Care and Prevention of Athletic Injuries|2
+PE 260|Adaptive Physical Education|4
+PE 261|Applied Human Anatomy|2
+PE 323|Principles of Strength Training and Conditioning|2
+PE 342|Growth, Development and Motor Learning|4
+PE 343|Elementary School Physical Education Content, Methods and Assessment I|2
+PE 344|Elementary School Physical Education Content, Methods and Assessment II|2
+PE 345|Middle/Secondary School Physical Education Content, Methods and Assessment I|2
+PE 346|Middle/Secondary School Physical Education Content , Methods and Assessment II|2
+PE 365|Kinesiology|2
+PE 366|Physiology of Exercise|4
+PE 456|Administration and Curriculum in Physical Education|2
+PHYS 112|Energy and the Physical World|4
+PHYS 114|Physics of Sound and Musical Acoustics|4
+PHYS 151|General Physics I|4
+PHYS 152|General Physics II|4
+PHYS 181|Classical Physics I|4
+PHYS 182|Classical Physics II|4
+PHYS 238|Statics|4
+PHYS 281|Modern Physics I|4
+PHYS 282|Modern Physics II|4
+PHYS 311|Advanced Laboratory I|2
+PHYS 312|Advanced Laboratory II|2
+PHYS 352|Mechanics of Materials|4
+PHYS 354|Astrophysics|4
+PHYS 359|Thermal Physics|4
+PHYS 361|Classical Mechanics|4
+PHYS 364|Electricity and Magnetism|4
+PHYS 369|Numerical Physics|4
+PHYS 401|Particle and Nuclear Physics|4
+PHYS 411|Quantum Mechanics|4
+PHYS 491|Senior Project|2
+POLS 130|American Politics|4
+POLS 132|Global Politics|4
+POLS 171|Mock Trial|0
+POLS 237|Politics of the Middle East|4
+POLS 242|Comparative Political Analysis|4
+POLS 243|Law and the Quest for Justice|4
+POLS 247|Social Policy|4
+POLS 252|Politics and Religion|4
+POLS 258|Environmental Politics and Policy|4
+POLS 335|Terrorism and Democracy|4
+POLS 340|Environmental Justice and Law|4
+POLS 350|Economic Policy|4
+POLS 353|Political Parties and Interest Groups|4
+POLS 354|Women, Representation, and Politics|4
+POLS 355|Constitutional Law|4
+POLS 356|Civil Rights and Liberties|4
+POLS 357|Congress and the Presidency|4
+POLS 360|Global Environmental Politics|4
+POLS 362|The Sustainability of Political and Economic Development in Latin America|4
+POLS 363|International Relations|4
+POLS 364|United States Foreign Policy|4
+POLS 365|American Political Thought|4
+POLS 366|Political Thought|4
+POLS 367|Political Leadership|4
+POLS 485|Seminar|4
+PSYC 130|General Psychology|4
+PSYC 240|Developmental Psychology|4
+PSYC 241|Psychology of Health and Illness|4
+PSYC 242|Evolutionary Psychology|4
+PSYC 243|Personality and Individual Differences|4
+PSYC 244|Animal Cognition|4
+PSYC 248|Pyschology of Religion|4
+PSYC 249|Brain and Behavior|4
+PSYC 270|Psychology and Aging|4
+PSYC 349|Research Methods in Psychology|2
+PSYC 350|Behavioral Statistics|4
+PSYC 352|Cognitive Processes|4
+PSYC 353|Social Psychology|4
+PSYC 354|Learning and Behavior|4
+PSYC 356|Stress, Coping, and Well-Being|4
+PSYC 358|Psychology of the Workplace|4
+PSYC 430|Applied Psychology|4
+PSYC 465|Abnormal Psychology|4
+PSYC 466|Psychological Tests and Measurement|4
+PSYC 468|Intro to Counseling|4
+REL 101|Introduction to Biblical Studies|4
+REL 111|Introduction to Hebrew Bible Studies Apocrypha|4
+REL 112|Introduction to New Testament Studies|4
+REL 120|Religion: Curse Or Blessing?|2
+REL 200|Ancient Mediterranean Heroes|4
+REL 201|Luther and Lutheranism|4
+REL 202|From Buddhist Texts to Anime|4
+REL 203|Rewriting Scripture: From Chronicles to The Qur'an|4
+REL 204|The World of the Bible|4
+REL 212|Sex in the Bible and the Qur'an|4
+REL 213|Archaeology and the Bible|4
+REL 217|Bible and Christian Faith|4
+REL 218|Christian Ethics|4
+REL 219|Christian Theology|4
+REL 220|Experiencing Mahayana Buddhism|4
+REL 221|History of Christian Thought|4
+REL 224|Islam: Historical Foundations and Contemporary Realities|4
+REL 225|Judaism|4
+REL 226|Religionless Christianity|4
+REL 228|Religion and Philosophy in Japan|4
+REL 230|God, Self, and the Afterlife|4
+REL 233|God and Gender|4
+REL 234|Clamoring for Change: Christianity and Social Change|4
+REL 235|Science and Religion|4
+REL 236|Disaster and Enlightenment: Pilgrimages East Asia|4
+REL 238|Islamophobia|4
+REL 240|Topics in Religion and Social Justice|4
+REL 243|Environmental Ethics|4
+REL 244|Religion and Sports|4
+REL 250|Living Religions|4
+REL 252|Introduction to Interfaith Studies|4
+REL 254|Religion in America|4
+REL 255|Religious Identity and Diversity in East Asia|4
+REL 258|Sacred Texts & Religious Diversity|4
+REL 301|Is Morality Any Good|4
+REL 302|R.a.c.e. (racism and Christianity Explored)|4
+REL 303|Religious Pluralism in Latin America and Caribbean|4
+REL 314|Teaching the Bible|4
+REL 316|Studying Jesus|4
+REL 370|Theology and Religious Diversity|4
+REL 371|Jesus and Jihad: A New Approach to Comparative Religion|4
+REL 485|Seminar|4
+RUS 101|Beginning Russian I|4
+RUS 102|Beginning Russian II|4
+RUS 201|Intermediate Russian|4
+RUS 202|Intermediate Russian|4
+RUS 241|Russian Culture Through Film|4
+RUS 243|Time of Stalin: Literature and Memoirs|4
+RUS 341|Russian Life and Culture|4
+RUS 345|Conversation and Composition|4
+RUS 350|Topics in Russian/Soviet Literature|4
+SCST 101|Elementary Norwegian I|4
+SCST 102|Elementary Norwegian II|4
+SCST 201|Intermediate Norwegian|4
+SCST 202|Norwegian Through Film and Literature|4
+SCST 250|Topics in Nordic Literature|4
+SCST 251|Topics in Nordic Film|4
+SCST 345|Composition, Conversation, and Advanced Grammar|4
+SCST 346|Scandinavian Immigration History|4
+SCST 348|Vikings in History|4
+SCST 352|Scandinavia and the Baltic|4
+SCST 361|Henrik Ibsen|4
+SCST 363|Norway's Nobel Prize-Winning Authors|4
+SCI 111|Physical Science|4
+SCI 112|Energy and the Physical World|4
+SCI 121|Introduction to Astronomy|4
+SCI 123|Introduction to Meteorology|4
+SCI 125|Great Ideas in Natural Science|4
+SCI 127|The Science of Science Fiction|4
+SCI 225|Women in Science|4
+SCI 240|Pathophysiology|4
+SCI 250|Clinical Pharmacology|4
+SW 101|Introduction to Social Work and Social Welfare|4
+SW 102|Social Work Field Experience|4
+SW 201|Fundamentals of Social Work Practice I|4
+SW 204|Human Behavior in the Social Environment I|4
+SW 301|Social Work Practice II|4
+SW 303|Human Behavior in the Social Environment II|4
+SW 304|Social Welfare Policies, Programs, and Issues|4
+SW 305|Research Methods for Social Work|4
+SW 401|Social Work Practice III|4
+SW 402|Field Instruction in Social Work Practice|8
+SW 403|Professional Seminar|4
+SOC 101|Introduction to Sociology|4
+SOC 242|Sociology of Gender|4
+SOC 253|Crime and Deviance|4
+SOC 261|Social Conflict|4
+SOC 270|Haters Gonna Hate: The Study of Hate Crimes and Hate Groups|4
+SOC 273|Crime and Media|4
+SOC 276|Social Theory and Praxis|4
+SOC 283|Sociology of Education|4
+SOC 290|Visual Sociology|4
+SOC 301|Research Methodology|4
+SOC 345|Constructs of Race and Racialization|4
+SOC 347|Sociology of the Family|4
+SOC 350|Social Statistics|4
+SOC 351|Gender and Crime|4
+SOC 356|Environmental Sociology|4
+SOC 358|Social Psychology|4
+SOC 453|Seminar: Law and Human Rights|4
+SOC 461|Seminar: Contemporary Issues of Immigration|4
+SOC 468|Seminar: Gender, Globalization and Development|4
+SOC 472|Seminar: Social Institutions|4
+SOC 475|Seminar: Social Movements|4
+SPAN 101|Elementary Spanish I|4
+SPAN 102|Elementary Spanish II|4
+SPAN 201|Intermediate Spanish|4
+SPAN 302|Conversation and Listening Comprehension|4
+SPAN 303|Written Expression|4
+SPAN 304|Advanced Grammar and Translation|4
+SPAN 335|Cultural Expressions of the Hispanic World|4
+SPAN 340|Language and Culture in the Spanish-Speaking World|4
+SPAN 341|Spanish for Medical Professionals|4
+SPAN 346|Introduction to the Study of Hispanic Literature|4
+SPAN 350|Practical and Professional Uses of Spanish|4
+SPAN 450|Seminar in Spanish Penisular Literature And Culture|4
+SPAN 460|Seminar in Latin American Literature and Culture|4
+SPAN 490|Senior Project|2
+THE 100|Performance Practicum|0
+THE 103|Art of Illusion:Costuming and Makeup|4
+THE 104|Art of Illusion:Scenery and Properties|4
+THE 105|Acting I:Text in Performance|4
+THE 127|Design I: Visual Principles|4
+THE 203|Costume History|4
+THE 204|Lighting Design|4
+THE 205|Acting: Improvisation, Ensemble, and Clown|4
+THE 206|Graphic Design|2
+THE 207|Contemporary Plays|4
+THE 222|Acting: Shakespeare|4
+THE 305|Acting: Special Topics|4
+THE 327|Design Ii: Scenography|4
+THE 351|Theatre History I|4
+THE 352|Theatre History II|4
+THE 360|Directing|4
+THE 490|Senior Seminar|2
+THE 491|Senior Project|2
+WGST 130|Introduction to Women and Gender Studies|4
+WGST 131|Contact Improvisation|4
+WGST 147|Literature of African Peoples|4
+WGST 195|Biology of Race And Sex|4
+WGST 212|Sex in the Bible and the Qur'an|4
+WGST 225|Women in Science|4
+WGST 240|Africana Women's Writing|4
+WGST 242|Sociology of Gender|4
+WGST 243|Time of Stalin: Literature and Memoirs Literature and Memoirs|4
+WGST 245|Literature By Women|4
+WGST 251|African-American Literature|4
+WGST 260|Identity and Power|4
+WGST 270|Psychology and Aging|4
+WGST 290|Gender and Women's History|4
+WGST 320|Women and Gender in the Classical World|4
+WGST 331|Gender, Health and Medicine|4
+WGST 335|Masculinity in Film|4
+WGST 337|God and Gender|4
+WGST 350|Gendered Activism in a Global Context|4
+WGST 351|Gender and Crime|4
+WGST 354|Women, Representation, and Politics|4
+WGST 361|Chaucer and Medieval Literature|4
+WGST 368|Gender in Art|4
+WGST 468|Seminar: Gender, Globalization, and Development|4
+WGST 485|Seminar: Topics in Women and Gender Studies|4
