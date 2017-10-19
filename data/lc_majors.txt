@@ -1,50 +1,50 @@
-Accounting
-Africana Studies
-Asian Studies
-Anthropology
-Art
-Art History
-Biblical Languages
-Biology
-Chemistry
-Chinese
-Classical Studies
-Classics
-Communication Studies
-Computer Science
-Dance
-Data Science
-Economics
-Education
-English
-Environmental Studies
-French
-German
-Health and Fitness Promotion
-History
-International Business
-International Studies
-Journalism
-Linguistics
-Management
-Mathematics
-Mathematics/Statistics
-Museum Studies
-Music
-Neuroscience
-Nordic Studies
-Nursing
-Paideia
-Philosophy
-Physical Education
-Physics
-Political Science
-Psychology
-Religion
-Russian Studies
-Social Welfare
-Social Work
-Sociology
-Spanish
-Theatre
-Women and Gender Studies
+Accounting|Economics, Accounting, and Management
+Africana Studies|Africana Studies
+Asian Studies|Modern Languages, Literatures and Linguistics
+Anthropology|Sociology, Anthropology, Social Work
+Art|Visual and Performing Arts
+Art History|Visual and Performing Arts
+Biblical Languages|Classics
+Biology|Biology
+Chemistry|Chemistry
+Chinese|Modern Languages, Literatures and Linguistics
+Classical Studies|Classics
+Classics|Classics
+Communication Studies|Communication Studies
+Computer Science|Computer Science
+Dance|Visual and Performing Arts
+Data Science|Computer Science
+Economics|Economics, Accounting, and Management
+Education|Education
+English|English
+Environmental Studies|Environmental Studies
+French|Modern Languages, Literatures and Linguistics
+German|Modern Languages, Literatures and Linguistics
+Health and Fitness Promotion|Health and Physical Education
+History|History
+International Business|Economics, Accounting, and Management
+International Studies|International Studies
+Journalism|Communication Studies
+Linguistics|Modern Languages, Literatures and Linguistics
+Management|Economics, Accounting, and Management
+Mathematics|Mathematics
+Mathematics/Statistics\Mathematics
+Museum Studies|Library
+Music|Music
+Neuroscience|Biology
+Nordic Studies|Modern Languages, Literatures and Linguistics
+Nursing|Nursing
+Paideia|Paideia
+Philosophy|Philosophy
+Physical Education|Health and Physical Education
+Physics|Physics
+Political Science\Political Science
+Psychology|Psychology
+Religion|Religion
+Russian Studies|Modern Languages, Literatures and Linguistics
+Social Welfare|Sociology, Anthropology, Social Work
+Social Work|Sociology, Anthropology, Social Work
+Sociology|Sociology, Anthropology, Social Work
+Spanish|Modern Languages, Literatures and Linguistics
+Theatre|Visual and Performing Arts
+Women and Gender Studies|Women and Gender Studies
