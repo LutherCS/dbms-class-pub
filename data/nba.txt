@@ -1,0 +1,30 @@
+Atlanta Hawks 	East 	Southeast 	Philips Arena 	Atlanta, Georgia
+Boston Celtics 	East 	Atlantic 	TD Garden 	Boston, Massachusetts
+Brooklyn Nets 	East 	Atlantic 	Barclays Center 	Brooklyn, New York
+Charlotte Hornets 	East 	Southeast 	Time Warner Cable Arena 	Charlotte, North Carolina
+Chicago Bulls 	East 	Central 	United Center 	Chicago, Illinois
+Cleveland Cavaliers 	East 	Central 	Quicken Loans Arena 	Cleveland, Ohio
+Dallas Mavericks 	West 	Southwest 	American Airlines Center 	Dallas, Texas
+Denver Nuggets 	West 	Northwest 	Pepsi Center 	Denver, Colorado
+Detroit Pistons 	East 	Central 	The Palace of Auburn Hills 	Auburn Hills, Michigan
+Golden State Warriors 	West 	Pacific 	Oracle Arena 	Oakland, California
+Houston Rockets 	West 	Southwest 	Toyota Center 	Houston, Texas
+Indiana Pacers 	East 	Central 	Bankers Life Fieldhouse 	Indianapolis, Indiana
+Los Angeles Clippers 	West 	Pacific 	Staples Center 	Los Angeles, California
+Los Angeles Lakers 	West 	Pacific 	Staples Center 	Los Angeles, California
+Memphis Grizzlies 	West 	Southwest 	FedExForum 	Memphis, Tennessee
+Miami Heat 	East 	Southeast 	AmericanAirlines Arena 	Miami, Florida
+Milwaukee Bucks 	East 	Central 	BMO Harris Bradley Center 	Milwaukee, Wisconsin
+Minnesota Timberwolves 	West 	Northwest 	Target Center 	Minneapolis, Minnesota
+New Orleans Pelicans 	West 	Southwest 	Smoothie King Center 	New Orleans, Louisiana
+New York Knicks 	East 	Atlantic 	Madison Square Garden 	New York, New York
+Oklahoma City Thunder 	West 	Northwest 	Chesapeake Energy Arena 	Oklahoma City, Oklahoma
+Orlando Magic 	East 	Southeast 	Amway Center 	Orlando, Florida
+Philadelphia 76ers 	East 	Atlantic 	Wells Fargo Center 	Philadelphia, Pennsylvania
+Phoenix Suns 	West 	Pacific 	Talking Stick Resort Arena 	Phoenix, Arizona
+Portland Trail Blazers 	West 	Northwest 	Moda Center 	Portland, Oregon
+Sacramento Kings 	West 	Pacific 	Golden 1 Center 	Sacramento, California
+San Antonio Spurs 	West 	Southwest 	AT&T Center 	San Antonio, Texas
+Toronto Raptors 	East 	Atlantic 	Air Canada Centre 	Toronto, Ontario
+Utah Jazz 	West 	Northwest 	Vivint Smart Home Arena 	Salt Lake City, Utah
+Washington Wizards 	East 	Southeast 	Verizon Center 	Washington, District of Columbia
