@@ -25,7 +25,7 @@ public class FileReaderGUI extends javax.swing.JFrame {
         FileReader fr = new FileReader();
         
         long start = System.nanoTime();
-        nba = fr.readFileTxt("data/nba.txt");
+        nba = fr.readFileTxt("data/nba/nba.txt");
         jRadioButtonTxt.setSelected(true);
         long end = System.nanoTime();
         jLabelStatus.setText("Loaded nba.txt in " + (end-start) / 1000000 + " ms");
@@ -191,7 +191,7 @@ public class FileReaderGUI extends javax.swing.JFrame {
     private void jRadioButtonTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonTxtActionPerformed
         FileReader fr = new FileReader();
         long start = System.nanoTime();
-        nba = fr.readFileTxt("data/nba.txt");
+        nba = fr.readFileTxt("data/nba/nba.txt");
         long end = System.nanoTime();
         jLabelStatus.setText("Loaded nba.txt in " + (end-start) / 1000000 + " ms");
     }//GEN-LAST:event_jRadioButtonTxtActionPerformed
@@ -199,7 +199,7 @@ public class FileReaderGUI extends javax.swing.JFrame {
     private void jRadioButtonJsonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonJsonActionPerformed
         FileReader fr = new FileReader();
         long start = System.nanoTime();
-        nba = fr.readFileJson("data/nba.json");
+        nba = fr.readFileJson("data/nba/nba.json");
         long end = System.nanoTime();
         jLabelStatus.setText("Loaded nba.json in " + (end-start) / 1000000 + " ms");
     }//GEN-LAST:event_jRadioButtonJsonActionPerformed
@@ -207,7 +207,7 @@ public class FileReaderGUI extends javax.swing.JFrame {
     private void jRadioButtonSqliteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonSqliteActionPerformed
         FileReader fr = new FileReader();
         long start = System.nanoTime();
-        nba = fr.readFileSqlite("data/nba.sqlite");
+        nba = fr.readFileSqlite("data/nba/nba.sqlite");
         long end = System.nanoTime();
         jLabelStatus.setText("Loaded nba.sqlite in " + (end-start) / 1000000 + " ms");
     }//GEN-LAST:event_jRadioButtonSqliteActionPerformed
