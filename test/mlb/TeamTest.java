@@ -50,7 +50,7 @@ public class TeamTest {
         instance.setAddress(address);
         ByteArrayOutputStream byteArrOutStream = null;
         try {
-            File fileIn = new File("images/mlb_logo_nrs.jpg");
+            File fileIn = new File("images/mlb/logo_nrs.jpg");
             FileInputStream fileInStream = new FileInputStream(fileIn);
             byte[] buffer = new byte[1024];
             byteArrOutStream = new ByteArrayOutputStream();

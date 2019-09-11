@@ -36,7 +36,7 @@ public class DatabaseWriterDriverTest {
     @Test
     public void testMain() {
         System.out.println("main");
-        String[] args = {"mlb_test.sqlite"};
+        String[] args = {"test.sqlite"};
         long start = System.nanoTime();
         DatabaseWriterDriver.main(args);
         long end = System.nanoTime();

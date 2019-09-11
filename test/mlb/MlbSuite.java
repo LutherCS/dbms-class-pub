@@ -5,6 +5,7 @@
  */
 package mlb;
 
+import java.io.File;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -34,6 +35,11 @@ public class MlbSuite {
 
     @AfterClass
     public static void tearDownClass() throws Exception {
+        File db_file = new File("data/mlb/test.sqlite"); 
+          
+        if(db_file.exists()) {
+            db_file.delete();
+        }  
     }
 
     @Before

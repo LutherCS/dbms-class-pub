@@ -37,7 +37,7 @@ public class DatabaseWriterTest {
     @Test
     public void testReadTeamFromJson() {
         System.out.println("readTeamFromJson");
-        String filename = "data/mlb_teams.json";
+        String filename = "data/mlb/teams.json";
         DatabaseWriter instance = new DatabaseWriter();
         int expResult = 30;
         ArrayList<Team> result = instance.readTeamFromJson(filename);
@@ -51,7 +51,7 @@ public class DatabaseWriterTest {
     @Test
     public void testReadAddressFromTxt() {
         System.out.println("readAddressFromTxt");
-        String filename = "data/mlb_teams.txt";
+        String filename = "data/mlb/teams.txt";
         DatabaseWriter instance = new DatabaseWriter();
         int expResult = 30;
         ArrayList<Address> result = instance.readAddressFromTxt(filename);
@@ -65,9 +65,9 @@ public class DatabaseWriterTest {
     @Test
     public void testReadPlayerFromCsv() {
         System.out.println("readPlayerFromCsv");
-        String filename = "data/mlb_players.csv";
+        String filename = "data/mlb/players.csv";
         DatabaseWriter instance = new DatabaseWriter();
-        int expResult = 2542;
+        int expResult = 3069;
         ArrayList<Player> result = instance.readPlayerFromCsv(filename);
         assertEquals(expResult, result.size());
         assertTrue(result.get(0) instanceof Player);
@@ -79,7 +79,7 @@ public class DatabaseWriterTest {
     @Test
     public void testCreateTables() throws Exception {
         System.out.println("createTables");
-        String db_filename = "mlb_test.sqlite";
+        String db_filename = "test.sqlite";
         DatabaseWriter instance = new DatabaseWriter();
         instance.createTables(db_filename);
     }
@@ -90,7 +90,7 @@ public class DatabaseWriterTest {
     @Test
     public void testWriteTeamTable() throws Exception {
         System.out.println("writeTeamTable");
-        String db_filename = "mlb_test.sqlite";
+        String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
                             "NRS",
@@ -108,7 +108,7 @@ public class DatabaseWriterTest {
     @Test
     public void testWriteAddressTable() throws Exception {
         System.out.println("writeAddressTable");
-        String db_filename = "mlb_test.sqlite";
+        String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
                             "NRS",
@@ -136,7 +136,7 @@ public class DatabaseWriterTest {
     @Test
     public void testWritePlayerTable() throws Exception {
         System.out.println("writePlayerTable");
-        String db_filename = "mlb_test.sqlite";
+        String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
                             "NRS",

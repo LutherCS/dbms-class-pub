@@ -93,7 +93,7 @@ public class DatabaseReaderTest {
         System.out.println("getTeamInfo");
         String teamName = "Chicago Cubs";
         DatabaseReader instance = new DatabaseReader();
-        int expResult = 85;
+        int expResult = 114;
         long start = System.nanoTime();
         Team result = instance.getTeamInfo(teamName);
         long end = System.nanoTime();
