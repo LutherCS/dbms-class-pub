@@ -1,0 +1,30 @@
+Baltimore Orioles	Oriole Park	333 West Camden Street	Baltimore	MD	21201	(410) 685-9800	orioles.com
+Boston Red Sox	Fenway Park	4 Yawkey Way	Boston	MA	02215	(617) 267-9440	redsox.com
+Chicago White Sox	Guaranteed Rate Field	333 West 35th Street	Chicago	IL	60616	(312) 674-1000	whitesox.com
+Cleveland Indians	Progressive Field	2401 Ontario Street	Cleveland	OH	44115	(216) 420-4200	indians.com
+Detroit Tigers	Comerica Park	2100 Woodward Avenue	Detroit	MI	48201	(313) 471-2000	tigers.com
+Houston Astros	Minute Maid Park	501 Crawford Street	Houston	TX	77002	(713) 259-8000	astros.com
+Kansas City Royals	Kauffman Stadium	One Royal Way	Kansas City	MO	64129	(816) 921-8000	royals.com
+Los Angeles Angels	Angel Stadium	2000 Gene Autry Way	Anaheim	CA	92806	(714) 940-2000	angels.com
+Minnesota Twins	Target Field	1 Twins Way	Minneapolis	MN	55403	(612) 659-3400	twinsbaseball.com
+New York Yankees	Yankee Stadium	One East 161st Street	Bronx	NY	10451	(718) 293-4300	yankees.com
+Oakland Athletics	Oakland Coliseum	7000 Coliseum Way	Oakland	CA	94621	(510) 638-4900	athletics.com
+Seattle Mariners	Safeco Field	P.O. Box 4100	Seattle	WA	98104	(206) 346-4000	Mariners.com
+Tampa Bay Rays	Tropicana Field	One Tropicana Drive	St. Petersburg	FL	33705	(727) 825-3137	raysbaseball.com
+Texas Rangers	Globe Life Park in Arlington	1000 Ballpark Way	Arlington	TX	76011	(817) 273-5222	texasrangers.com
+Toronto Blue Jays	Rogers Centre	1 Blue Jays Way, Suite 3200	Toronto	Ontario, Canada	M5V1J1	(416) 341-1000	bluejays.com
+Arizona Diamondbacks	Chase Field	401 East Jefferson Street	Phoenix	AZ	85004	(602) 462-6500	dbacks.com
+Atlanta Braves	SunTrust Park	755 Battery Avenue	Atlanta	GA	30339	(404) 614-2300	braves.com
+Chicago Cubs	Wrigley Field	1060 West Addison	Chicago	IL	60613-4397	(773) 404-2827	cubs.com
+Cincinnati Reds	Great American Ball Park	100 Main Street	Cincinnati	OH	45202-4109	(513) 765-7000	reds.com
+Colorado Rockies	Coors Field	2001 Blake Street	Denver	CO	80205	(303) 292-0200	Rockies.com
+Los Angeles Dodgers	Dodger Stadium	1000 Vin Scully Avenue	Los Angeles	CA	90012	866-DODGERS	dodgers.com
+Miami Marlins	Marlins Park	501 Marlins Way	Miami	FL	33125	(305) 480-1300	marlins.com
+Milwaukee Brewers	Miller Park	One Brewers Way	Milwaukee	WI	53214	(414) 902-4400	brewers.com
+New York Mets	Citi Field	120-01 Roosevelt Avenue	Corona	NY	11368	(718) 507-6387	mets.com
+Philadelphia Phillies	Citizens Bank Park	One Citizens Bank Way	Philadelphia	PA	19148	(215) 463-6000	phillies.com
+Pittsburgh Pirates	PNC Park	115 Federal Street	Pittsburgh	PA	15212	(412) 323-5000	pirates.com
+San Diego Padres	Petco Park	100 Park Boulevard	San Diego	CA	92101	(619) 795-5000	padres.com
+San Francisco Giants	AT&T Park	24 Willie Mays Plaza	San Francisco	CA	94107	(415) 972-2000	SFGiants.com
+St. Louis Cardinals	Busch Stadium	700 Clark Street	St. Louis	MO	63102	(314) 345-9600	cardinals.com
+Washington Nationals	Nationals Park	1500 South Capitol Street, SE	Washington	DC	20003	(202) 675-6287	nationals.com
