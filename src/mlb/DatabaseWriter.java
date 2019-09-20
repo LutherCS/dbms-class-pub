@@ -102,7 +102,7 @@ public class DatabaseWriter {
                             + "name TEXT NOT NULL,"
                             + "team TEXT NOT NULL,"
                             + "position TEXT NOT NULL,"
-                            + "FOREIGN KEY (team) REFERENCES team(id));");
+                            + "FOREIGN KEY (team) REFERENCES team(idpk));");
 
         statement.executeUpdate("DROP TABLE IF EXISTS address;");
         statement.executeUpdate("CREATE TABLE address ("
@@ -115,7 +115,7 @@ public class DatabaseWriter {
                             + "zip TEXT NOT NULL,"
                             + "phone TEXT NOT NULL,"
                             + "url TEXT NOT NULL,"
-                            + "FOREIGN KEY (team) REFERENCES team(name));");
+                            + "FOREIGN KEY (team) REFERENCES team(idpk));");
         db_connection.close();
     }
    /**
