@@ -1,0 +1,45 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.15.2'
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
+	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
+	// https://mvnrepository.com/artifact/com.opencsv/opencsv
+	implementation 'com.opencsv:opencsv:5.8'
+	// https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	implementation 'com.mysql:mysql-connector-j:8.1.0'
+	// https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
+	implementation 'org.xerial:sqlite-jdbc:3.43.0.0'
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	implementation 'org.postgresql:postgresql:42.6.0'
+	// https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+	implementation 'com.github.javafaker:javafaker:1.0.2'
+	// https://mvnrepository.com/artifact/org.jsoup/jsoup
+	implementation 'org.jsoup:jsoup:1.16.1'
+	// https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils
+	implementation 'commons-beanutils:commons-beanutils:1.9.4'
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+	implementation 'org.apache.commons:commons-lang3:3.13.0'
+	// https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+	// https://mvnrepository.com/artifact/org.junit/junit-bom
+	// testImplementation 'org.junit:junit-bom:5.10.0'
+	// https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-engine
+	testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.0'
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
