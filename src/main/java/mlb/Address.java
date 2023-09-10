@@ -1,87 +1,102 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
+import org.apache.commons.lang3.NotImplementedException;
+
 public class Address {
+
     private final String team;
-    private final String site;
+    private final String arena;
     private final String street;
     private final String city;
     private final String state;
     private final String zip;
     private final String phone;
     private final String url;
+
     /**
-     * @param _team
-     * @param _site
-     * @param _street
-     * @param _city
-     * @param _state
-     * @param _zip
-     * @param _phone
-     * @param _url 
+     * @param team
+     * @param arena
+     * @param street
+     * @param city
+     * @param state
+     * @param zip
+     * @param phone
+     * @param url
      */
-    public Address(String _team, String _site, String _street, String _city, String _state, String _zip, String _phone, String _url) {
-        this.team = _team;
-        this.site = _site;
-        this.street = _street;
-        this.city = _city;
-        this.state = _state;
-        this.zip = _zip;
-        this.phone = _phone;
-        this.url = _url;
+    public Address(String team, String arena, String street, String city, String state, String zip, String phone,
+            String url) {
+        this.team = team;
+        this.arena = arena;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
+        this.phone = phone;
+        this.url = url;
     }
+
     /**
      * @return Team name
      */
     public String getTeam() {
         return this.team;
     }
+
     /**
      * @return Team site
      */
-    public String getSite() {
-        return this.site;
+    public String getArena() {
+        return this.arena;
     }
+
     /**
      * @return Street
      */
     public String getStreet() {
         return this.street;
     }
+
     /**
      * @return City
      */
     public String getCity() {
         return this.city;
     }
+
     /**
      * @return State
      */
     public String getState() {
         return this.state;
     }
+
     /**
      * @return Zip
      */
     public String getZip() {
         return this.zip;
     }
+
     /**
      * @return Phone
      */
     public String getPhone() {
         return this.phone;
     }
+
     /**
      * @return Url
      */
     public String getUrl() {
         return this.url;
     }
+
     @Override
     public String toString() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException();
+        // TODO Implement this method
+        throw new NotImplementedException();
     }
 }

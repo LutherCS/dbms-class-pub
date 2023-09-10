@@ -1,51 +1,59 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TeamTest {
+
     Team instance;
+
     public TeamTest() {
     }
-    
-    @BeforeClass
+
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("Team");
     }
-    
-    @AfterClass
+
+    @AfterAll
     public static void tearDownClass() {
     }
-    
-    @Before
+
+    @BeforeEach
     public void setUp() {
         Address address = new Address("Luther Norse",
-                                      "Baseball Field",
-                                      "700 College Dr",
-                                      "Decorah",
-                                      "IA",
-                                      "52101",
-                                      "563-387-2000",
-                                      "luther.edu");
+                "Baseball Field",
+                "700 College Dr",
+                "Decorah",
+                "IA",
+                "52101",
+                "563-387-2000",
+                "luther.edu");
         ArrayList<Player> roster = new ArrayList<>();
-        roster.add(new Player("1234",  "John Doe", "Luther Norse", "P"));
-        roster.add(new Player("4321",  "Bobby Tables", "Iowa Corndogs", "SS"));
+        roster.add(new Player("1234", "John Doe", "Luther Norse", "P"));
+        roster.add(new Player("4321", "Bobby Tables", "Iowa Corndogs", "SS"));
         instance = new Team("luther-norse",
-                            "NRS",
-                            "Luther Norse",
-                            "IIAC",
-                            "NCAA, Division 3");
+                "NRS",
+                "Luther Norse",
+                "IIAC",
+                "NCAA, Division 3");
         instance.setRoster(roster);
         instance.setAddress(address);
         ByteArrayOutputStream byteArrOutStream = null;
@@ -57,6 +65,7 @@ public class TeamTest {
             for (int len; (len = fileInStream.read(buffer)) != -1;) {
                 byteArrOutStream.write(buffer, 0, len);
             }
+            fileInStream.close();
         } catch (FileNotFoundException fnfe) {
             System.err.println(fnfe.getMessage());
         } catch (IOException ioe) {
@@ -66,8 +75,8 @@ public class TeamTest {
             instance.setLogo(byteArrOutStream.toByteArray());
         }
     }
-    
-    @After
+
+    @AfterEach
     public void tearDown() {
     }
 
@@ -191,8 +200,8 @@ public class TeamTest {
         System.out.println("setLogo");
         byte[] logo = null;
         instance.setLogo(logo);
-        byte [] expResult = null;
-        byte [] result = instance.getLogo();
+        byte[] expResult = null;
+        byte[] result = instance.getLogo();
         assertArrayEquals(expResult, result);
     }
 
@@ -203,15 +212,15 @@ public class TeamTest {
     public void testToString() {
         System.out.println("toString");
         String expResult = "Luther Norse\n"
-                        + "IIAC | NCAA, Division 3\n"
-                        + "Baseball Field\n"
-                        + "700 College Dr\n"
-                        + "Decorah, IA 52101\n"
-                        + "563-387-2000\n"
-                        + "luther.edu\n"
-                        + "Roster size: 2";
+                + "IIAC | NCAA, Division 3\n"
+                + "Baseball Field\n"
+                + "700 College Dr\n"
+                + "Decorah, IA 52101\n"
+                + "563-387-2000\n"
+                + "luther.edu\n"
+                + "Roster size: 2";
         String result = instance.toString();
         assertEquals(expResult, result);
     }
-    
+
 }

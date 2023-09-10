@@ -2,39 +2,45 @@ package mlb;
 /**
  * @author Roman Yasinovskyy
  */
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class AddressTest {
+
     Address instance;
+
     public AddressTest() {
     }
-    
-    @BeforeClass
+
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("Address");
     }
-    
-    @AfterClass
+
+    @AfterAll
     public static void tearDownClass() {
     }
-    
-    @Before
+
+    @BeforeEach
     public void setUp() {
         instance = new Address("Luther Norse",
-                               "Baseball Field",
-                               "700 College Dr",
-                               "Decorah",
-                               "IA",
-                               "52101",
-                               "563-387-2000",
-                               "luther.edu");
+                "Baseball Field",
+                "700 College Dr",
+                "Decorah",
+                "IA",
+                "52101",
+                "563-387-2000",
+                "luther.edu");
     }
-    
-    @After
+
+    @AfterEach
     public void tearDown() {
     }
 
@@ -56,7 +62,7 @@ public class AddressTest {
     public void testGetSite() {
         System.out.println("getSite");
         String expResult = "Baseball Field";
-        String result = instance.getSite();
+        String result = instance.getArena();
         assertEquals(expResult, result);
     }
 
@@ -136,5 +142,5 @@ public class AddressTest {
         String result = instance.toString();
         assertEquals(expResult, result);
     }
-    
+
 }

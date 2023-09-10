@@ -1,36 +1,41 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class PlayerTest {
+
     Player instance;
+
     public PlayerTest() {
     }
-    
-    @BeforeClass
+
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("Player");
     }
-    
-    @AfterClass
+
+    @AfterAll
     public static void tearDownClass() {
     }
-    
-    @Before
+
+    @BeforeEach
     public void setUp() {
         instance = new Player("1234",
-                              "John Doe",
-                              "Luther Norse",
-                              "P");
+                "John Doe",
+                "Luther Norse",
+                "P");
     }
-    
-    @After
+
+    @AfterEach
     public void tearDown() {
     }
 
@@ -88,5 +93,5 @@ public class PlayerTest {
         String result = instance.toString();
         assertEquals(expResult, result);
     }
-    
+
 }
