@@ -1,4 +1,7 @@
-package nba;
+package aba;
+
+import nba.Team;
+
 /**
  * @author Roman Yasinovskyy
  * This is a basic example of using Java to access SQLite DB.
@@ -15,22 +18,24 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 public class SQLiteExampleMain {
     /**
      * main function
+     * 
      * @param args the command line arguments
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SQLiteExample sqlite = new SQLiteExample();
         Connection db_connection = null;
         Statement statement = null;
         ResultSet results = null;
-        
+
         /*
          * Create a new database or create a new one.
          */
         try {
-            sqlite.createDB("nba_example.sqlite");
+            sqlite.createDB("test.sqlite");
         } catch (SQLException sqle) {
             System.err.printf("createDB() failed%n");
             System.err.printf("%s%n", sqle.getMessage());
@@ -39,7 +44,7 @@ public class SQLiteExampleMain {
          * Connect to the database or create a new one.
          */
         try {
-            db_connection = sqlite.connect("nba_example.sqlite");
+            db_connection = sqlite.connect("test.sqlite");
         } catch (SQLException sqle) {
             System.err.printf("connect() failed%n");
             System.err.printf("%s%n", sqle.getMessage());
@@ -48,8 +53,9 @@ public class SQLiteExampleMain {
          * Add cities.
          */
         try {
-            sqlite.insertCity(db_connection, "Minneapolis", "MN");
-            sqlite.insertCity(db_connection, "Oklahoma City", "OK");
+            sqlite.insertCity(db_connection, "New York", "NY");
+            sqlite.insertCity(db_connection, "Louisville", "KY");
+            sqlite.insertCity(db_connection, "Pittsburgh", "PA");
         } catch (SQLException sqle) {
             System.err.printf("insertCity() failed%n");
             System.err.printf("%s%n", sqle.getMessage());
@@ -63,7 +69,8 @@ public class SQLiteExampleMain {
             statement = db_connection.createStatement();
             results = statement.executeQuery("SELECT * FROM cities;");
             while (results.next()) {
-                System.out.printf("%-5d%-15s%5s%n", results.getInt("city_id_pk"), results.getString("city_name"), results.getString("city_state"));
+                System.out.printf("%-5d%-15s%5s%n", results.getInt("city_id_pk"), results.getString("city_name"),
+                        results.getString("city_state"));
             }
         } catch (SQLException sqle) {
             System.err.printf("queryCities() failed%n");
@@ -72,11 +79,11 @@ public class SQLiteExampleMain {
         /*
          * Add teams.
          */
-        Team chi = new Team("Chicago Bulls", "East", "Central", "United Center", "Chicago", "IL");
-        Team min = new Team("Minnesota Timberwolves", "West", "Northwest", "Target Center", "Minneapolis", "MN");
+        Team nya = new Team("New York Americans", "East", "Atlantic", "Long Island", "New York", "NY");
+        Team pbp = new Team("Pittsburgh Pipers", "East", "Atlantic", "Pittsburgh Civic Arena", "Pittsburgh", "PA");
         try {
-            sqlite.insertTeam(db_connection, chi);
-            sqlite.insertTeam(db_connection, min);
+            sqlite.insertTeam(db_connection, nya);
+            sqlite.insertTeam(db_connection, pbp);
         } catch (SQLException sqle) {
             System.err.printf("insertTeam() failed%n");
             System.err.printf("%s%n", sqle.getMessage());
@@ -85,12 +92,16 @@ public class SQLiteExampleMain {
          * Query the database and retrieve teams.
          */
         System.out.printf("Records in the *teams* table%n");
-        System.out.printf("%-5s%-25s%10s%15s%20s%15s%n", "ID", "Name", "Conference", "Division", "Arena", "City");
+        System.out.printf("%-5s%-25s%-15s%-15s%-15s%-20s%n", "ID", "Name", "Conference", "Division", "City", "Arena");
         try {
             statement = db_connection.createStatement();
-            results = statement.executeQuery("SELECT * FROM cities INNER JOIN teams ON cities.city_id_pk = teams.city_id;");
+            results = statement
+                    .executeQuery("SELECT * FROM cities INNER JOIN teams ON cities.city_id_pk = teams.city_id;");
             while (results.next()) {
-                System.out.printf("%-5d%-25s%10s%15s%20s%15s%n", results.getInt("team_id_pk"), results.getString("team_name"), results.getString("team_conference"), results.getString("team_division"), results.getString("team_site"), results.getString("city_name"));
+                System.out.printf("%-5d%-25s%-15s%-15s%-15s%-20s%n", results.getInt("team_id_pk"),
+                        results.getString("team_name"), results.getString("team_conference"),
+                        results.getString("team_division"), results.getString("city_name"),
+                        results.getString("team_arena"));
             }
         } catch (SQLException sqle) {
             System.err.printf("queryTeams() failed%n");
@@ -99,16 +110,12 @@ public class SQLiteExampleMain {
         /*
          * Close the database connection.
          */
-        if (null != db_connection) {
-            try {
-                db_connection.close();
-                //System.out.printf("Connection to the database has been closed.%n");
-            } catch (SQLException sqle) {
-                System.err.printf("%s%n", sqle.getMessage());
-            }
-        } else {
-            System.err.printf("Attempted to close nonexistent connection.%n");
+        try {
+            db_connection.close();
+            // System.out.printf("Connection to the database has been closed.%n");
+        } catch (SQLException sqle) {
+            System.err.printf("%s%n", sqle.getMessage());
         }
     }
-    
+
 }

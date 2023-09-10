@@ -1,33 +1,42 @@
 package mlb;
+
+import java.io.File;
 /**
  * @author Roman Yasinovskyy
  */
 import java.util.ArrayList;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DatabaseWriterTest {
-    
+
     public DatabaseWriterTest() {
     }
-    
-    @BeforeClass
+
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("DatabaseWriter");
     }
-    
-    @AfterClass
+
+    @AfterAll
     public static void tearDownClass() {
+        File db_file = new File("data/mlb/test.sqlite");
+
+        if (db_file.exists()) {
+            db_file.delete();
+        }
     }
-    
-    @Before
+
+    @BeforeEach
     public void setUp() {
     }
-    
-    @After
+
+    @AfterEach
     public void tearDown() {
     }
 
@@ -93,10 +102,10 @@ public class DatabaseWriterTest {
         String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
-                            "NRS",
-                            "Luther Norse",
-                            "IIAC",
-                            "NCAA, Division 3"));
+                "NRS",
+                "Luther Norse",
+                "IIAC",
+                "NCAA, Division 3"));
         DatabaseWriter instance = new DatabaseWriter();
         instance.createTables(db_filename);
         instance.writeTeamTable(db_filename, league);
@@ -111,22 +120,22 @@ public class DatabaseWriterTest {
         String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
-                            "NRS",
-                            "Luther Norse",
-                            "IIAC",
-                            "NCAA, Division 3"));
+                "NRS",
+                "Luther Norse",
+                "IIAC",
+                "NCAA, Division 3"));
         DatabaseWriter instance = new DatabaseWriter();
         instance.createTables(db_filename);
         instance.writeTeamTable(db_filename, league);
         ArrayList<Address> addressBook = new ArrayList<>();
         addressBook.add(new Address("Luther Norse",
-                               "Baseball Field",
-                               "700 College Dr",
-                               "Decorah",
-                               "IA",
-                               "52101",
-                               "563-387-2000",
-                               "luther.edu"));
+                "Baseball Field",
+                "700 College Dr",
+                "Decorah",
+                "IA",
+                "52101",
+                "563-387-2000",
+                "luther.edu"));
         instance.writeAddressTable(db_filename, addressBook);
     }
 
@@ -139,19 +148,19 @@ public class DatabaseWriterTest {
         String db_filename = "test.sqlite";
         ArrayList<Team> league = new ArrayList<>();
         league.add(new Team("luther-norse",
-                            "NRS",
-                            "Luther Norse",
-                            "IIAC",
-                            "NCAA, Division 3"));
+                "NRS",
+                "Luther Norse",
+                "IIAC",
+                "NCAA, Division 3"));
         DatabaseWriter instance = new DatabaseWriter();
         instance.createTables(db_filename);
         instance.writeTeamTable(db_filename, league);
         ArrayList<Player> roster = new ArrayList<>();
         roster.add(new Player("1234",
-                              "John Doe",
-                              "Luther Norse",
-                              "P"));
+                "John Doe",
+                "Luther Norse",
+                "P"));
         instance.writePlayerTable(db_filename, roster);
     }
-    
+
 }

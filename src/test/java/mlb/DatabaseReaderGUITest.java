@@ -1,4 +1,5 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
@@ -6,31 +7,31 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 public class DatabaseReaderGUITest {
-    
+
     public DatabaseReaderGUITest() {
     }
-    
-    @BeforeClass
+
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("DatabaseReaderGUI");
     }
-    
-    @AfterClass
+
+    @AfterAll
     public static void tearDownClass() {
     }
-    
-    @Before
+
+    @BeforeEach
     public void setUp() {
     }
-    
-    @After
+
+    @AfterEach
     public void tearDown() {
     }
 
@@ -51,5 +52,5 @@ public class DatabaseReaderGUITest {
             Logger.getLogger(DatabaseReaderGUITest.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
 }

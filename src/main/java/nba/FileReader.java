@@ -1,4 +1,5 @@
 package nba;
+
 /**
  *
  * @author Roman Yasinovskyy
@@ -7,6 +8,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;
@@ -14,14 +16,16 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.Scanner;
 
 public class FileReader {
-    public FileReader() { }
+    public FileReader() {
+    }
+
     /**
      * @param filename (JSON file)
      * @return League of Teams
@@ -31,7 +35,7 @@ public class FileReader {
         ObjectMapper mapper = new ObjectMapper();
         JsonFactory f = new JsonFactory();
         JsonParser jp;
-        
+
         try {
             jp = f.createParser(new File(filename));
             jp.nextToken();
@@ -43,17 +47,19 @@ public class FileReader {
         } catch (IOException ex) {
             Logger.getLogger(FileReader.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
         return league;
     }
+
     /**
      * @param filename (TXT file)
      * @return League of Teams
      */
     public League readFileTxt(String filename) {
         League league = new League();
-        Pattern p = Pattern.compile("(\\w+\\s\\w+\\s*\\w*)\\s+(East|West)\\s+(\\w+)\\s+((\\w+[\\s&])+)\\s+(.+),\\s(.+)");
-        
+        Pattern p = Pattern
+                .compile("(\\w+\\s\\w+\\s*\\w*)\\s+(East|West)\\s+(\\w+)\\s+((\\w+[\\s&])+)\\s+(.+),\\s(.+)");
+
         try {
             Scanner fs = new Scanner(new File(filename));
             while (fs.hasNextLine()) {
@@ -67,9 +73,10 @@ public class FileReader {
         } catch (IOException ex) {
             Logger.getLogger(FileReader.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
         return league;
     }
+
     /**
      * @param filename (SQLITE file)
      * @return League of Teams
@@ -79,13 +86,13 @@ public class FileReader {
         Connection conn;
         Statement stat;
         ResultSet rs;
-        
+
         try {
             Class.forName("org.sqlite.JDBC");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(FileReader.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
         try {
             conn = DriverManager.getConnection("jdbc:sqlite:" + filename);
             stat = conn.createStatement();
@@ -103,8 +110,8 @@ public class FileReader {
             conn.close();
         } catch (SQLException ex) {
             Logger.getLogger(FileReader.class.getName()).log(Level.SEVERE, null, ex);
-        }       
-        
+        }
+
         return league;
     }
 }

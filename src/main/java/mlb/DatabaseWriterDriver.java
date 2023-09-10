@@ -1,4 +1,5 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
@@ -8,6 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class DatabaseWriterDriver {
+
     /**
      * @param args the command line arguments
      */
@@ -44,5 +46,5 @@ public class DatabaseWriterDriver {
             Logger.getLogger(DatabaseWriterDriver.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
 }

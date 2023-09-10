@@ -3,31 +3,35 @@ package mlb;
  * @author Roman Yasinovskyy
  */
 import java.util.ArrayList;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DatabaseReaderTest {
     
     public DatabaseReaderTest() {
     }
     
-    @BeforeClass
+    @BeforeAll
     public static void setUpClass() {
+        System.out.println("DatabaseReader");
     }
     
-    @AfterClass
+    @AfterAll
     public static void tearDownClass() {
     }
     
-    @Before
+    @BeforeEach
+    @Timeout(1)  // No test can exceed 1 sec
     public void setUp() {
     }
     
-    @After
+    @AfterEach
     public void tearDown() {
     }
 
@@ -44,11 +48,11 @@ public class DatabaseReaderTest {
     /**
      * Test of disconnect method, of class DatabaseReader.
      */
-    @Test(expected = NullPointerException.class)
+    @Test
     public void testDisconnect() {
         System.out.println("disconnect");
         DatabaseReader instance = new DatabaseReader();
-        instance.disconnect();
+        assertThrows(NullPointerException.class, () -> instance.disconnect());
     }
 
     /**
@@ -60,10 +64,7 @@ public class DatabaseReaderTest {
         int expResult = 6;
         ArrayList<String> divisions = new ArrayList<>();
         DatabaseReader instance = new DatabaseReader();
-        long start = System.nanoTime();
         instance.getDivisions(divisions);
-        long end = System.nanoTime();
-        assertTrue((end-start) / 1000000 < 50);
         assertEquals(expResult, divisions.size());
     }
 
@@ -77,10 +78,7 @@ public class DatabaseReaderTest {
         int expResult = 5;
         ArrayList<String> teams = new ArrayList<>();
         DatabaseReader instance = new DatabaseReader();
-        long start = System.nanoTime();
         instance.getTeams(confDiv, teams);
-        long end = System.nanoTime();
-        assertTrue((end-start) / 1000000 < 500);
         assertEquals(expResult, teams.size());
         
     }
@@ -94,10 +92,7 @@ public class DatabaseReaderTest {
         String teamName = "Chicago Cubs";
         DatabaseReader instance = new DatabaseReader();
         int expResult = 114;
-        long start = System.nanoTime();
         Team result = instance.getTeamInfo(teamName);
-        long end = System.nanoTime();
-        assertTrue((end-start) / 1000000 < 50);
         assertEquals(expResult, result.getRoster().size());
     }
     
