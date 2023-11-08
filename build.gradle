@@ -35,6 +35,9 @@ dependencies {
 	// testImplementation 'org.junit:junit-bom:5.10.0'
 	// https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-engine
 	testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.0'
+	// https://mvnrepository.com/artifact/org.dizitart/nitrite
+	implementation 'org.dizitart:nitrite:3.4.4'
+	// implementation(platform("org.dizitart:nitrite-bom:[latest version]"))
 }
 
 test {
