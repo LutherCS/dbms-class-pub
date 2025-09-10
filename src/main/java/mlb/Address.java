@@ -1,14 +1,14 @@
 package mlb;
 
+import org.apache.commons.lang3.NotImplementedException;
+
 /**
  * @author Roman Yasinovskyy
  */
-import org.apache.commons.lang3.NotImplementedException;
-
 public class Address {
 
     private final String team;
-    private final String arena;
+    private final String stadium;
     private final String street;
     private final String city;
     private final String state;
@@ -18,7 +18,7 @@ public class Address {
 
     /**
      * @param team
-     * @param arena
+     * @param stadium
      * @param street
      * @param city
      * @param state
@@ -26,10 +26,10 @@ public class Address {
      * @param phone
      * @param url
      */
-    public Address(String team, String arena, String street, String city, String state, String zip, String phone,
+    public Address(String team, String stadium, String street, String city, String state, String zip, String phone,
             String url) {
         this.team = team;
-        this.arena = arena;
+        this.stadium = stadium;
         this.street = street;
         this.city = city;
         this.state = state;
@@ -46,10 +46,10 @@ public class Address {
     }
 
     /**
-     * @return Team site
+     * @return Team stadium
      */
-    public String getArena() {
-        return this.arena;
+    public String getStadium() {
+        return this.stadium;
     }
 
     /**

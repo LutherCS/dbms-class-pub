@@ -56,17 +56,14 @@ public class DatabaseWriter {
     }
 
     /**
-     * @param filename (TXT file)
+     * @param filename (CSV file)
      * @return Addresses
      */
-    public ArrayList<Address> readAddressFromTxt(String filename) {
+    public ArrayList<Address> readAddressFromCsv(String filename) {
         ArrayList<Address> addressBook = new ArrayList<>();
-        try {
-            Scanner fs = new Scanner(new File(filename));
-            // TODO: Parse each line into an object of type Address and add it to the ArrayList
-        } catch (IOException ex) {
-            Logger.getLogger(DatabaseReader.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        CSVReader reader = null;
+        // TODO: Read the CSV file, create an object of type Address from each line and
+        // add it to the ArrayList
 
         return addressBook;
     }
@@ -74,7 +71,8 @@ public class DatabaseWriter {
     public ArrayList<Player> readPlayerFromCsv(String filename) {
         ArrayList<Player> roster = new ArrayList<>();
         CSVReader reader = null;
-        // TODO: Read the CSV file, create an object of type Player from each line and add it to the ArrayList
+        // TODO: Read the CSV file, create an object of type Player from each line and
+        // add it to the ArrayList
 
         return roster;
     }
@@ -114,7 +112,7 @@ public class DatabaseWriter {
         statement.executeUpdate("CREATE TABLE address ("
                 + "idpk INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,"
                 + "team TEXT NOT NULL,"
-                + "site TEXT NOT NULL,"
+                + "stadium TEXT NOT NULL,"
                 + "street TEXT NOT NULL,"
                 + "city TEXT NOT NULL,"
                 + "state TEXT NOT NULL,"
@@ -163,7 +161,8 @@ public class DatabaseWriter {
         String sql = "";
         for (Team team : league) {
             PreparedStatement statement_prepared = db_connection.prepareStatement(sql);
-            // TODO: match parameters of the SQL statement and team id, abbreviation, name, conference, division, and logo
+            // TODO: match parameters of the SQL statement and team id, abbreviation, name,
+            // conference, division, and logo
             statement_prepared.executeUpdate();
         }
         db_connection.commit();
@@ -183,7 +182,8 @@ public class DatabaseWriter {
             // TODO: Write an SQL statement to insert a new address into a table
             String sql = "";
             PreparedStatement statement_prepared = db_connection.prepareStatement(sql);
-            // TODO: match parameters of the SQL statement and address site, street, city, state, zip, phone, and url
+            // TODO: match parameters of the SQL statement and address site, street, city,
+            // state, zip, phone, and url
             statement_prepared.executeUpdate();
         }
         db_connection.commit();

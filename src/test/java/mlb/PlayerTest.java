@@ -20,11 +20,12 @@ public class PlayerTest {
 
     @BeforeAll
     public static void setUpClass() {
-        System.out.println("Player");
+        System.out.println("Start testing class Player implementation");
     }
 
     @AfterAll
     public static void tearDownClass() {
+        System.out.println("Finish testing class Player implementation");
     }
 
     @BeforeEach
@@ -44,7 +45,7 @@ public class PlayerTest {
      */
     @Test
     public void testGetId() {
-        System.out.println("getId");
+        System.out.println("Testing method getId");
         String expResult = "1234";
         String result = instance.getId();
         assertEquals(expResult, result);
@@ -55,7 +56,7 @@ public class PlayerTest {
      */
     @Test
     public void testGetName() {
-        System.out.println("getName");
+        System.out.println("Testing method getName");
         String expResult = "John Doe";
         String result = instance.getName();
         assertEquals(expResult, result);
@@ -66,7 +67,7 @@ public class PlayerTest {
      */
     @Test
     public void testGetTeam() {
-        System.out.println("getTeam");
+        System.out.println("Testing method getTeam");
         String expResult = "Luther Norse";
         String result = instance.getTeam();
         assertEquals(expResult, result);
@@ -77,7 +78,7 @@ public class PlayerTest {
      */
     @Test
     public void testGetPosition() {
-        System.out.println("getPosition");
+        System.out.println("Testing method getPosition");
         String expResult = "P";
         String result = instance.getPosition();
         assertEquals(expResult, result);
@@ -88,7 +89,7 @@ public class PlayerTest {
      */
     @Test
     public void testToString() {
-        System.out.println("toString");
+        System.out.println("Testing method toString");
         String expResult = "John Doe plays for Luther Norse";
         String result = instance.toString();
         assertEquals(expResult, result);

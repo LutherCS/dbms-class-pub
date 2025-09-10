@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -20,11 +21,12 @@ public class DatabaseWriterTest {
 
     @BeforeAll
     public static void setUpClass() {
-        System.out.println("DatabaseWriter");
+        System.out.println("Start testing class DatabaseWriter implementation");
     }
 
     @AfterAll
     public static void tearDownClass() {
+        System.out.println("Finish testing class DatabaseWriter implementation");
         File db_file = new File("data/mlb/test.sqlite");
 
         if (db_file.exists()) {
@@ -45,7 +47,7 @@ public class DatabaseWriterTest {
      */
     @Test
     public void testReadTeamFromJson() {
-        System.out.println("readTeamFromJson");
+        System.out.println("Testing method readTeamFromJson");
         String filename = "data/mlb/teams.json";
         DatabaseWriter instance = new DatabaseWriter();
         int expResult = 30;
@@ -58,12 +60,27 @@ public class DatabaseWriterTest {
      * Test of readAddressFromTxt method, of class DatabaseWriter.
      */
     @Test
+    @Disabled
     public void testReadAddressFromTxt() {
-        System.out.println("readAddressFromTxt");
+        System.out.println("Testing method readAddressFromTxt");
         String filename = "data/mlb/teams.txt";
         DatabaseWriter instance = new DatabaseWriter();
         int expResult = 30;
         ArrayList<Address> result = instance.readAddressFromTxt(filename);
+        assertEquals(expResult, result.size());
+        assertTrue(result.get(0) instanceof Address);
+    }
+
+    /**
+     * Test of readAddressFromCsv method, of class DatabaseWriter.
+     */
+    @Test
+    public void testReadAddressFromCsv() {
+        System.out.println("Testing method readAddressFromCsv");
+        String filename = "data/mlb/teams.csv";
+        DatabaseWriter instance = new DatabaseWriter();
+        int expResult = 30;
+        ArrayList<Address> result = instance.readAddressFromCsv(filename);
         assertEquals(expResult, result.size());
         assertTrue(result.get(0) instanceof Address);
     }
@@ -76,7 +93,7 @@ public class DatabaseWriterTest {
         System.out.println("readPlayerFromCsv");
         String filename = "data/mlb/players.csv";
         DatabaseWriter instance = new DatabaseWriter();
-        int expResult = 3069;
+        int expResult = 1848;
         ArrayList<Player> result = instance.readPlayerFromCsv(filename);
         assertEquals(expResult, result.size());
         assertTrue(result.get(0) instanceof Player);
@@ -104,7 +121,7 @@ public class DatabaseWriterTest {
         league.add(new Team("luther-norse",
                 "NRS",
                 "Luther Norse",
-                "IIAC",
+                "A-R-C",
                 "NCAA, Division 3"));
         DatabaseWriter instance = new DatabaseWriter();
         instance.createTables(db_filename);
@@ -158,7 +175,7 @@ public class DatabaseWriterTest {
         ArrayList<Player> roster = new ArrayList<>();
         roster.add(new Player("1234",
                 "John Doe",
-                "Luther Norse",
+                "NRS",
                 "P"));
         instance.writePlayerTable(db_filename, roster);
     }

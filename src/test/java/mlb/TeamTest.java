@@ -52,7 +52,7 @@ public class TeamTest {
         instance = new Team("luther-norse",
                 "NRS",
                 "Luther Norse",
-                "IIAC",
+                "A-R-C",
                 "NCAA, Division 3");
         instance.setRoster(roster);
         instance.setAddress(address);
@@ -85,7 +85,7 @@ public class TeamTest {
      */
     @Test
     public void testGetId() {
-        System.out.println("getId");
+        System.out.println("Testing method getId");
         String expResult = "luther-norse";
         String result = instance.getId();
         assertEquals(expResult, result);
@@ -96,7 +96,7 @@ public class TeamTest {
      */
     @Test
     public void testGetAbbreviation() {
-        System.out.println("getAbbreviation");
+        System.out.println("Testing method getAbbreviation");
         String expResult = "NRS";
         String result = instance.getAbbreviation();
         assertEquals(expResult, result);
@@ -107,7 +107,7 @@ public class TeamTest {
      */
     @Test
     public void testGetName() {
-        System.out.println("getName");
+        System.out.println("Testing method getName");
         String expResult = "Luther Norse";
         String result = instance.getName();
         assertEquals(expResult, result);
@@ -118,8 +118,8 @@ public class TeamTest {
      */
     @Test
     public void testGetConference() {
-        System.out.println("getConference");
-        String expResult = "IIAC";
+        System.out.println("Testing method getConference");
+        String expResult = "A-R-C";
         String result = instance.getConference();
         assertEquals(expResult, result);
     }
@@ -129,7 +129,7 @@ public class TeamTest {
      */
     @Test
     public void testGetDivision() {
-        System.out.println("getDivision");
+        System.out.println("Testing method getDivision");
         String expResult = "NCAA, Division 3";
         String result = instance.getDivision();
         assertEquals(expResult, result);
@@ -140,7 +140,7 @@ public class TeamTest {
      */
     @Test
     public void testGetRoster() {
-        System.out.println("getRoster");
+        System.out.println("Testing method getRoster");
         int expResult = 2;
         int result = instance.getRoster().size();
         assertEquals(expResult, result);
@@ -151,7 +151,7 @@ public class TeamTest {
      */
     @Test
     public void testSetRoster() {
-        System.out.println("setRoster");
+        System.out.println("Testing method setRoster");
         ArrayList<Player> roster = null;
         instance.setRoster(roster);
         ArrayList<Player> expResult = null;
@@ -164,7 +164,7 @@ public class TeamTest {
      */
     @Test
     public void testGetAddress() {
-        System.out.println("getAddress");
+        System.out.println("Testing method getAddress");
         Address result = instance.getAddress();
         assertTrue(result instanceof Address);
     }
@@ -174,7 +174,7 @@ public class TeamTest {
      */
     @Test
     public void testSetAddress() {
-        System.out.println("setAddress");
+        System.out.println("Testing method setAddress");
         Address address = new Address("", "", "", "", "", "", "", "");
         instance.setAddress(address);
         Address result = instance.getAddress();
@@ -186,7 +186,7 @@ public class TeamTest {
      */
     @Test
     public void testGetLogo() {
-        System.out.println("getLogo");
+        System.out.println("Testing method getLogo");
         int expResult = 23764;
         int result = instance.getLogo().length;
         assertEquals(expResult, result);
@@ -197,7 +197,7 @@ public class TeamTest {
      */
     @Test
     public void testSetLogo() {
-        System.out.println("setLogo");
+        System.out.println("Testing method setLogo");
         byte[] logo = null;
         instance.setLogo(logo);
         byte[] expResult = null;
@@ -210,9 +210,9 @@ public class TeamTest {
      */
     @Test
     public void testToString() {
-        System.out.println("toString");
+        System.out.println("Testing method toString");
         String expResult = "Luther Norse\n"
-                + "IIAC | NCAA, Division 3\n"
+                + "A-R-C | NCAA, Division 3\n"
                 + "Baseball Field\n"
                 + "700 College Dr\n"
                 + "Decorah, IA 52101\n"

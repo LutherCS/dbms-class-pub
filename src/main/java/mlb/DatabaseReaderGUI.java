@@ -280,6 +280,7 @@ public class DatabaseReaderGUI extends javax.swing.JFrame {
                         /* Populate information text area */
                         jTextAreaInfo.setText(team.toString());
                         /* Set team logo */
+                        /* TODO: Fix this part */
                         byte[] logoBytes = team.getLogo();
                         Image img = Toolkit.getDefaultToolkit().createImage(logoBytes);
                         ImageIcon logo = new ImageIcon(img);

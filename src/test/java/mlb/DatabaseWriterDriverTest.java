@@ -16,11 +16,12 @@ public class DatabaseWriterDriverTest {
 
     @BeforeAll
     public static void setUpClass() {
-        System.out.println("DatabaseWriterDriver");
+        System.out.println("Start testing class DatabaseWriterDriver implementation");
     }
 
     @AfterAll
     public static void tearDownClass() {
+        System.out.println("Finish testing class DatabaseWriterDriver implementation");
     }
 
     @BeforeEach
@@ -36,8 +37,8 @@ public class DatabaseWriterDriverTest {
      */
     @Test
     public void testMain() {
-        System.out.println("main");
-        String[] args = {"test.sqlite"};
+        System.out.println("Testing method main");
+        String[] args = { "test.sqlite" };
         DatabaseWriterDriver.main(args);
     }
 }

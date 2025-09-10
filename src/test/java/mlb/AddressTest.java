@@ -1,4 +1,5 @@
 package mlb;
+
 /**
  * @author Roman Yasinovskyy
  */
@@ -11,7 +12,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class AddressTest {
 
     Address instance;
@@ -21,11 +21,12 @@ public class AddressTest {
 
     @BeforeAll
     public static void setUpClass() {
-        System.out.println("Address");
+        System.out.println("Start testing class Address implementation");
     }
 
     @AfterAll
     public static void tearDownClass() {
+        System.out.println("Finish testing class Address implementation");
     }
 
     @BeforeEach
@@ -49,7 +50,7 @@ public class AddressTest {
      */
     @Test
     public void testGetTeam() {
-        System.out.println("getTeam");
+        System.out.println("Testing method getTeam");
         String expResult = "Luther Norse";
         String result = instance.getTeam();
         assertEquals(expResult, result);
@@ -59,10 +60,10 @@ public class AddressTest {
      * Test of getSite method, of class Address.
      */
     @Test
-    public void testGetSite() {
-        System.out.println("getSite");
+    public void testGetStadium() {
+        System.out.println("Testing method getStadium");
         String expResult = "Baseball Field";
-        String result = instance.getArena();
+        String result = instance.getStadium();
         assertEquals(expResult, result);
     }
 
@@ -71,7 +72,7 @@ public class AddressTest {
      */
     @Test
     public void testGetStreet() {
-        System.out.println("getStreet");
+        System.out.println("Testing method getStreet");
         String expResult = "700 College Dr";
         String result = instance.getStreet();
         assertEquals(expResult, result);
@@ -82,7 +83,7 @@ public class AddressTest {
      */
     @Test
     public void testGetCity() {
-        System.out.println("getCity");
+        System.out.println("Testing method getCity");
         String expResult = "Decorah";
         String result = instance.getCity();
         assertEquals(expResult, result);
@@ -93,7 +94,7 @@ public class AddressTest {
      */
     @Test
     public void testGetState() {
-        System.out.println("getState");
+        System.out.println("Testing method getState");
         String expResult = "IA";
         String result = instance.getState();
         assertEquals(expResult, result);
@@ -104,7 +105,7 @@ public class AddressTest {
      */
     @Test
     public void testGetZip() {
-        System.out.println("getZip");
+        System.out.println("Testing method getZip");
         String expResult = "52101";
         String result = instance.getZip();
         assertEquals(expResult, result);
@@ -115,7 +116,7 @@ public class AddressTest {
      */
     @Test
     public void testGetPhone() {
-        System.out.println("getPhone");
+        System.out.println("Testing method getPhone");
         String expResult = "563-387-2000";
         String result = instance.getPhone();
         assertEquals(expResult, result);
@@ -126,7 +127,7 @@ public class AddressTest {
      */
     @Test
     public void testGetUrl() {
-        System.out.println("getUrl");
+        System.out.println("Testing method getUrl");
         String expResult = "luther.edu";
         String result = instance.getUrl();
         assertEquals(expResult, result);
@@ -137,7 +138,7 @@ public class AddressTest {
      */
     @Test
     public void testToString() {
-        System.out.println("toString");
+        System.out.println("Testing method toString");
         String expResult = "Baseball Field\n700 College Dr\nDecorah, IA 52101\n563-387-2000\nluther.edu";
         String result = instance.toString();
         assertEquals(expResult, result);

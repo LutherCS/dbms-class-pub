@@ -31,8 +31,8 @@ public class DatabaseWriterDriver {
         } catch (SQLException ex) {
             Logger.getLogger(DatabaseWriterDriver.class.getName()).log(Level.SEVERE, null, ex);
         }
-        /* Read addresses from TXT */
-        ArrayList<Address> addressBook = dw.readAddressFromTxt("data/mlb/teams.txt");
+        /* Read addresses from CSV */
+        ArrayList<Address> addressBook = dw.readAddressFromCsv("data/mlb/teams.csv");
         try {
             dw.writeAddressTable(db_filename, addressBook);
         } catch (SQLException ex) {

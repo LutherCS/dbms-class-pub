@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.platform.suite.api.ExcludeTags;
 import org.junit.platform.suite.api.IncludeClassNamePatterns;
 import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.Suite;
@@ -19,6 +20,7 @@ import java.io.File;
 @SuiteDisplayName("MLB Test Suite")
 @SelectPackages("mlb")
 @IncludeClassNamePatterns(".*Test")
+@ExcludeTags("GUI")
 public class MlbSuite {
 
     @BeforeAll
