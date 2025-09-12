@@ -57,21 +57,6 @@ public class DatabaseWriterTest {
     }
 
     /**
-     * Test of readAddressFromTxt method, of class DatabaseWriter.
-     */
-    @Test
-    @Disabled
-    public void testReadAddressFromTxt() {
-        System.out.println("Testing method readAddressFromTxt");
-        String filename = "data/mlb/teams.txt";
-        DatabaseWriter instance = new DatabaseWriter();
-        int expResult = 30;
-        ArrayList<Address> result = instance.readAddressFromTxt(filename);
-        assertEquals(expResult, result.size());
-        assertTrue(result.get(0) instanceof Address);
-    }
-
-    /**
      * Test of readAddressFromCsv method, of class DatabaseWriter.
      */
     @Test
