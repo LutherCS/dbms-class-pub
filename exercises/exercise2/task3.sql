@@ -1,0 +1,1 @@
+-- Titles of courses that Joe and Amy took together.

@@ -1,0 +1,2 @@
+-- The STUDENT record of the students who never received a grade below an “A”.
+-- Ignore students who don't have any recorded grade.

@@ -1,0 +1,1 @@
+-- The (professor, course) pairs such that the professor taught that course every other year.

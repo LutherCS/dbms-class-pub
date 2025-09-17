@@ -1,0 +1,1 @@
+-- The CS (compsci) majors who never took a math course.
