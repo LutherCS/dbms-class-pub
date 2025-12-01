@@ -1,145 +1,186 @@
 Departments
 
 Biology
-Kirk Larsen, Head
-larsenkj@luther.edu
-Sampson Hoffland Laboratories 190E
-563-387-1558
+Eric Baack, Department Head
+baacer01@luther.edu
+Sampson Hoffland Laboratories 190G
+563-387-1087
 
 Chemistry
-Olga Michels, Head
-olga.michels@luther.edu
-Sampson Hoffland Laboratories 390E
-563-387-1684
+Molly Wilker, Department Head
+molly.wilker@luther.edu
+Sampson Hoffland Laboratories 390D
+563-387-1123
 
 Communication Studies
-Derek Sweet, Head
+Derek Sweet, Department Head
 sweede01@luther.edu
 Campus House 103
 563-387-1566
 
 Computer Science
-Roman Yasinovskyy, Head
+Roman Yasinovskyy, Department Head
 yasiro01@luther.edu
 Olin 319
 563-387-1171
 
 Economics, Accounting, and Management
-Gregory Patton, Head
-pattgr01@luther.edu
-Olin 341
-563-387-1295
+Alexandra White, Department Head
+whital04@luther.edu
+Olin 344
+563-387-1812
 
 Education
-Elliott Johnson, Head
+Elliott Johnson, Department Head
 johnel12@luther.edu
 Koren 102
 563-387-1450
 
 English
-Kate Narveson, Head
-narveska@luther.edu
-Main 506
-563-387-1593
+Amy Weldon, Department Head
+weldam01@luther.edu
+Main 603A
+563-387-2224
 
 Environmental Studies
-Rachel Brummel, Director
+Rachel Brummel, Program Director
 brumra02@luther.edu
 Valders 372E
 563-387-1778
 
+Global Health
+Angela Kueny, Program Director
+angela.kueny@luther.edu
+Valders 243G
+563-387-1165
+
 Health and Exercise Science
-Brian Solberg, Head
+Brian Solberg, Department Head
 solberbr@luther.edu
-Regents Center 11B
+Gerdin Fieldhouse 11B
 563-387-1246
 
 History
-Richard Mtisi, Head
-mtisri01@luther.edu
-Koren 210
-563-387-1264
+Robert Christman, Department Head
+chriro05@luther.edu
+Koren 207
+563-387-1451
 
 Identity Studies
-Char Kunkel, Head
+Char Kunkel, Department Head
 kunkelch@luther.edu
 Koren 322
 563-387-1624
 
 International Studies
-Orcun Selcuk, Director
+Orçun Selçuk, Program Director
 selcor01@luther.edu
 Koren 304
 563-387-1250
 
+Law and Values
+Steve Holland, Program Director
+steve.holland@luther.edu
+Olin 334
+563-387-1130
+
 Mathematics
-Ruth Berger, Head
-bergerr@luther.edu
-Olin 317
-563-387-1174
+Mike Johnson, Department Head
+mj@luther.edu
+Olin 305
+563-387-1638
 
 Modern Languages and Cultures
-Elizabeth Steding, Head
-stedel01@luther.edu
-Main 404
-563-387-1703
+Nancy Gates Madsen, Department Head
+madsna01@luther.edu
+Main 406
+563-387-2982
+
+Museum Studies
+Destiny Crider, Program Director
+cridde01@luther.edu
+Koren 319
+563-387-2156
 
 Music
-Daniel Baldwin, Head
-baldwida@luther.edu
-Jenson-Noble 206
-563-387-1692
+Heather Armstrong, Department Co-Head
+armshe01@luther.edu
+Jenson-Noble 169
+563-387-1214
+
+Brooke Joyce, Department Co-Head
+brooke.joyce@luther.edu
+Jenson-Noble 214
+563-387-1386
+
+Neuroscience
+Stephanie Fretham, Program Director
+frethams@luther.edu
+Sampson Hoffland Lab 290H
+563-387-1555
+
+Nordic Studies
+Maren Johnson, Program Director
+maren@luther.edu
+Main 115B
+563-387-1570
 
 Nursing
-Angela Kueny, Head
-angela.kueny@luther.edu
-Valders 243G
-563-387-1165
+Laurie Bouska, Department Head
+laurie.bouska@luther.edu
+Valders 243E
+563-387-1453
 
 Paideia
-Kathryn Reed, Director
-reedkath@luther.edu
-Main 215A
-563-387-1315
+Brian Caton, Program Director
+catobr01@luther.edu
+Main 215C
+563-387-2119
 
 Philosophy
-Holly Moore, Head
+Holly Moore, Program Director
 moorho01@luther.edu
-Ockham House 13
+Valders 372G
 563-387-1222
 
 Physics
-Todd Pedlar, Head
+Todd Pedlar, Department Head
 pedlto01@luther.edu
 Valders 272D
 563-387-1628
 
 Political Science
-Carly Foster, Head
+Carly Foster, Department Head
 fostca01@luther.edu
 Koren 303
 563-387-1874
 
 Psychology
-Kristy Gould, Head
-goulkr01@luther.edu
-Valders 344U-1
-563-387-1685
+David Njus, Department Head
+njusdavi@luther.edu
+Valders 340G
+563-387-1633
 
 Religion
-Kristin Swanson, Head
+Kristin Swanson, Department Head
 swansokr@luther.edu
 Main 303
 563-387-1346
 
 Sociology, Anthropology, and Social Work
-Britt Rhodes, Head
+Britt Rhodes, Department Head
 rhodbr01@luther.edu
 Koren 318
 563-387-1623
 
 Visual and Performing Arts
-Joseph Madrigal, Head
+Joseph Madrigal, Department Head
 madrjo01@luther.edu
 Center for the Arts 108
 563-387-1114
+
+Visual Communication
+Aaron Lurth, Program Director
+lurtaa01@luther.edu
+Center for the Arts 105
+563-387-1695
